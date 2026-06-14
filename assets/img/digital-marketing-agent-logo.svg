@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Digital Marketing Agent Skills Logo</title>
+  <desc id="desc">An orchestrator hub connected to marketing signal nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="16" y1="18" x2="144" y2="142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.52" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#facc15"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="42" y1="42" x2="118" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="34" fill="url(#bg)"/>
+  <circle cx="80" cy="80" r="48" fill="url(#ink)" opacity="0.94"/>
+  <path d="M80 41v78M41 80h78M54 54l52 52M106 54l-52 52" stroke="#67e8f9" stroke-width="5" stroke-linecap="round" opacity="0.52"/>
+  <circle cx="80" cy="80" r="19" fill="#f8fafc"/>
+  <path d="M70 86l8-25 12 25-10-5-10 5z" fill="#0f172a"/>
+  <circle cx="80" cy="31" r="10" fill="#fef08a"/>
+  <circle cx="129" cy="80" r="10" fill="#a7f3d0"/>
+  <circle cx="80" cy="129" r="10" fill="#67e8f9"/>
+  <circle cx="31" cy="80" r="10" fill="#fef08a"/>
+  <circle cx="114" cy="46" r="8" fill="#f8fafc"/>
+  <circle cx="114" cy="114" r="8" fill="#f8fafc"/>
+  <circle cx="46" cy="114" r="8" fill="#f8fafc"/>
+  <circle cx="46" cy="46" r="8" fill="#f8fafc"/>
+</svg>

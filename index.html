@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Digital Marketing Agent Skills</title>
+    <meta
+      name="description"
+      content="A modular digital marketing agent team with one orchestrator, 15 specialist skills, update checks, and project personalization."
+    />
+    <link rel="icon" href="https://cdn.lensetek.com/favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="bg-slate-950 text-slate-100">
+    <main class="min-h-screen overflow-hidden">
+      <section class="relative px-5 py-8 sm:px-8 lg:px-12">
+        <nav class="mx-auto flex max-w-6xl items-center justify-between gap-4">
+          <a href="index.html" class="flex items-center gap-3">
+            <img
+              src="assets/img/digital-marketing-agent-logo.svg"
+              alt="Digital Marketing Agent Skills logo"
+              class="h-11 w-11"
+            />
+            <span class="text-sm font-semibold uppercase tracking-[0.18em] text-cyan-200">Agent Skills</span>
+          </a>
+          <div class="flex items-center gap-3 text-sm">
+            <a class="text-slate-300 hover:text-white" href="README.en.md">English</a>
+            <a class="text-slate-300 hover:text-white" href="README.id.md">Indonesia</a>
+          </div>
+        </nav>
+
+        <div class="mx-auto grid max-w-6xl gap-10 pb-16 pt-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:pt-20">
+          <div>
+            <p class="mb-5 inline-flex rounded-full border border-cyan-300/30 bg-cyan-300/10 px-4 py-2 text-sm text-cyan-100">
+              15 modular agent skills + one marketing orchestrator
+            </p>
+            <h1 class="max-w-3xl text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
+              A full digital marketing team you can install with one prompt.
+            </h1>
+            <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
+              Talk to one orchestrator. It plans the work, coordinates specialist agents, asks for approval, and reports the result. Portable Markdown instructions for Antigravity, Claude, Codex, Gemini, and other agent workspaces.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-3">
+              <a href="#install" class="rounded-md bg-cyan-300 px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-cyan-200">
+                Copy install prompt
+              </a>
+              <a href="README.en.md" class="rounded-md border border-slate-600 px-5 py-3 text-sm font-semibold text-slate-100 hover:border-slate-300">
+                Read docs
+              </a>
+            </div>
+          </div>
+
+          <section id="install" class="rounded-lg border border-slate-700 bg-slate-900/80 p-5 shadow-2xl shadow-cyan-950/30">
+            <div class="mb-4 flex items-center justify-between gap-4">
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-amber-200">Install Prompt</p>
+                <p class="mt-1 text-sm text-slate-400">Paste this into your AI agent workspace.</p>
+              </div>
+              <button
+                type="button"
+                class="copy-button inline-flex shrink-0 items-center gap-2 rounded-md bg-cyan-300 px-3 py-2 text-sm font-semibold text-slate-950 hover:bg-cyan-200 focus:outline-none focus:ring-2 focus:ring-cyan-100"
+                data-copy-target="installPrompt"
+                aria-label="Copy install prompt"
+              >
+                <svg aria-hidden="true" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span data-copy-label>Copy</span>
+              </button>
+            </div>
+            <pre class="command-box"><code id="installPrompt">download install agent ini https://github.com/lensetek/Digital-Marketing-Agent_Skills</code></pre>
+            <p class="mt-4 text-sm leading-6 text-slate-400">
+              The installer agent should download the repository, count <span class="font-mono text-slate-200">skills/*/SKILL.md</span>, show the detected agents, and ask for confirmation before installing.
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="border-y border-slate-800 bg-slate-900 px-5 py-10 sm:px-8 lg:px-12">
+        <div class="mx-auto grid max-w-6xl gap-4 sm:grid-cols-3">
+          <div class="rounded-lg border border-slate-800 bg-slate-950 p-5">
+            <p class="text-3xl font-semibold text-cyan-200">15</p>
+            <p class="mt-2 text-sm text-slate-400">agent skills detected in the project</p>
+          </div>
+          <div class="rounded-lg border border-slate-800 bg-slate-950 p-5">
+            <p class="text-3xl font-semibold text-amber-200">1</p>
+            <p class="mt-2 text-sm text-slate-400">orchestrator coordinates the full team</p>
+          </div>
+          <div class="rounded-lg border border-slate-800 bg-slate-950 p-5">
+            <p class="text-3xl font-semibold text-emerald-200">0</p>
+            <p class="mt-2 text-sm text-slate-400">credentials required in prompts or frontend files</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-5 py-14 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-6xl">
+          <h2 class="text-2xl font-semibold text-white">What the team covers</h2>
+          <div class="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <article class="skill-card">
+              <h3>Strategy</h3>
+              <p>Digital strategy, KPIs, channel priority, and 30-day action plans.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Research</h3>
+              <p>Competitors, personas, social listening, narrative intelligence, and market insight.</p>
+            </article>
+            <article class="skill-card">
+              <h3>SEO and AIO</h3>
+              <p>Keyword maps, on-page SEO, local SEO, and post-search visibility.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Content and Social</h3>
+              <p>Brand voice, content calendars, social media plans, and engagement workflows.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Ads and Video</h3>
+              <p>Google Ads, display concepts, A/B tests, scripts, storyboards, and micro-ad prompts.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Learning and Updates</h3>
+              <p>Project personalization, safe memory, update checks, approval gates, and final reports.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
