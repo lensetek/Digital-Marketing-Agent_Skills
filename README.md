@@ -12,7 +12,7 @@ Portable modular agent skills for a full digital marketing team.
 Paste this prompt into Antigravity, Claude, Codex, Gemini/custom agent, or any AI agent workspace that can download and install Markdown-based agent instructions.
 
 ```text
-download install agent ini https://github.com/lensetek/Digital-Marketing-Agent_Skills
+download and install this agent https://github.com/lensetek/Digital-Marketing-Agent_Skills
 ```
 
 The installer agent must confirm the repository, destination, detected agent count, and agent list before installing. Current expected inventory: **15 agent skills**.

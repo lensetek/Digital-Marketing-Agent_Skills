@@ -11,7 +11,7 @@ The pack uses Markdown-based instructions, so it can be adapted for Antigravity,
 Copy this prompt and paste it into your AI agent workspace:
 
 ```text
-download install agent ini https://github.com/lensetek/Digital-Marketing-Agent_Skills
+download and install this agent https://github.com/lensetek/Digital-Marketing-Agent_Skills
 ```
 
 The installer agent must:
