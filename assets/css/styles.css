@@ -107,6 +107,18 @@ body[data-theme="dark"] .shadow-cyan-950\/30 {
   color: inherit !important;
 }
 
+.github-button {
+  color: inherit !important;
+}
+
+.github-button:hover {
+  color: rgb(14 116 144) !important;
+}
+
+body[data-theme="dark"] .github-button:hover {
+  color: rgb(165 243 252) !important;
+}
+
 .language-button {
   border-radius: 0.35rem;
   padding: 0.45rem 0.7rem;
