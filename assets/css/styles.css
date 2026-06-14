@@ -52,9 +52,17 @@ body[data-theme="light"] .text-slate-400 {
   color: rgb(71 85 105) !important;
 }
 
+body[data-theme="light"] .text-slate-200 {
+  color: rgb(15 23 42) !important;
+}
+
 body[data-theme="dark"] .text-slate-300,
 body[data-theme="dark"] .text-slate-400 {
   color: rgb(203 213 225) !important;
+}
+
+body[data-theme="dark"] .text-slate-200 {
+  color: rgb(226 232 240) !important;
 }
 
 body[data-theme="light"] .text-cyan-100,
@@ -150,6 +158,21 @@ body[data-theme="dark"] .theme-toggle {
 
 body[data-theme="light"] .theme-toggle:hover {
   border-color: rgb(14 116 144) !important;
+}
+
+.font-mono {
+  border-radius: 0.25rem;
+  padding: 0.08rem 0.28rem;
+}
+
+body[data-theme="light"] .font-mono {
+  background: rgb(226 232 240);
+  color: rgb(15 23 42) !important;
+}
+
+body[data-theme="dark"] .font-mono {
+  background: rgba(15, 23, 42, 0.86);
+  color: rgb(226 232 240) !important;
 }
 
 .command-box {

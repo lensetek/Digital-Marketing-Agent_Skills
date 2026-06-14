@@ -24,7 +24,7 @@ const translations = {
     copiedButton: "Copied",
     selectText: "Select text",
     installNote:
-      'The installer agent should download the repository, count <span class="font-mono text-slate-200">skills/*/SKILL.md</span>, show the detected agents, and ask for confirmation before installing.',
+      'The installer agent should download the repository, count <span class="font-mono">skills/*/SKILL.md</span>, show the detected agents, and ask for confirmation before installing.',
     statAgents: "agent skills detected in the project",
     statOrchestrator: "orchestrator coordinates the full team",
     statCredentials: "credentials required in prompts or frontend files",
@@ -120,7 +120,7 @@ const translations = {
     copiedButton: "Tersalin",
     selectText: "Pilih teks",
     installNote:
-      'Agent installer harus download repository, menghitung <span class="font-mono text-slate-200">skills/*/SKILL.md</span>, menampilkan agent yang ditemukan, lalu meminta konfirmasi sebelum install.',
+      'Agent installer harus download repository, menghitung <span class="font-mono">skills/*/SKILL.md</span>, menampilkan agent yang ditemukan, lalu meminta konfirmasi sebelum install.',
     statAgents: "agent skills terdeteksi di project",
     statOrchestrator: "orchestrator mengoordinasikan seluruh tim",
     statCredentials: "credential dibutuhkan di prompt atau file frontend",
