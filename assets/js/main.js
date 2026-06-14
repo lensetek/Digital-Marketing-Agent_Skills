@@ -7,6 +7,7 @@ const themeIconPath = document.querySelector("[data-theme-icon-path]");
 
 function applyTheme(theme) {
   const isDark = theme === "dark";
+  document.body.dataset.theme = isDark ? "dark" : "light";
   document.body.classList.toggle("dark-mode", isDark);
   document.body.classList.toggle("theme-light", !isDark);
 
@@ -50,7 +51,7 @@ applyTheme(getStoredTheme() || "light");
 
 if (themeToggle) {
   themeToggle.addEventListener("click", () => {
-    const nextTheme = document.body.classList.contains("dark-mode") ? "light" : "dark";
+    const nextTheme = document.body.dataset.theme === "dark" ? "light" : "dark";
     storeTheme(nextTheme);
     applyTheme(nextTheme);
   });
