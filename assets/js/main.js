@@ -10,7 +10,7 @@ const installPrompt = document.getElementById("installPrompt");
 const translations = {
   en: {
     pageTitle: "Digital Marketing Agent Skills",
-    docHref: "README.en.md",
+    docHref: "docs-en.html",
     installPrompt: "download and install this agent https://github.com/lensetek/Digital-Marketing-Agent_Skills",
     heroBadge: "15 modular agent skills + one marketing orchestrator",
     heroTitle: "A full digital marketing team you can install with one prompt.",
@@ -106,7 +106,7 @@ const translations = {
   },
   id: {
     pageTitle: "Digital Marketing Agent Skills",
-    docHref: "README.id.md",
+    docHref: "docs-id.html",
     installPrompt: "download install agent ini https://github.com/lensetek/Digital-Marketing-Agent_Skills",
     heroBadge: "15 agent skills modular + satu marketing orchestrator",
     heroTitle: "Tim digital marketing lengkap yang bisa diinstall dengan satu prompt.",

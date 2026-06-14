@@ -223,7 +223,9 @@ body[data-theme="dark"] .faq-card {
 }
 
 .answer-card h3,
-.faq-card h3 {
+.answer-card h2,
+.faq-card h3,
+.faq-card h2 {
   color: white;
   font-weight: 700;
 }
@@ -233,7 +235,9 @@ body[data-theme="light"] .skill-card h3 {
 }
 
 body[data-theme="light"] .answer-card h3,
-body[data-theme="light"] .faq-card h3 {
+body[data-theme="light"] .answer-card h2,
+body[data-theme="light"] .faq-card h3,
+body[data-theme="light"] .faq-card h2 {
   color: rgb(15 23 42);
 }
 
@@ -242,7 +246,9 @@ body[data-theme="dark"] .skill-card h3 {
 }
 
 body[data-theme="dark"] .answer-card h3,
-body[data-theme="dark"] .faq-card h3 {
+body[data-theme="dark"] .answer-card h2,
+body[data-theme="dark"] .faq-card h3,
+body[data-theme="dark"] .faq-card h2 {
   color: white;
 }
 
