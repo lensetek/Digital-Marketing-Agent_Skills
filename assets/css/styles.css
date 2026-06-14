@@ -187,7 +187,21 @@ body[data-theme="dark"] .command-box {
   padding: 1.25rem;
 }
 
+.answer-card,
+.faq-card {
+  border: 1px solid rgb(30 41 59);
+  border-radius: 0.5rem;
+  background: rgba(15, 23, 42, 0.72);
+  padding: 1.25rem;
+}
+
 body[data-theme="light"] .skill-card {
+  border-color: rgb(203 213 225);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+body[data-theme="light"] .answer-card,
+body[data-theme="light"] .faq-card {
   border-color: rgb(203 213 225);
   background: rgba(255, 255, 255, 0.9);
 }
@@ -197,7 +211,19 @@ body[data-theme="dark"] .skill-card {
   background: rgba(15, 23, 42, 0.72);
 }
 
+body[data-theme="dark"] .answer-card,
+body[data-theme="dark"] .faq-card {
+  border-color: rgb(30 41 59);
+  background: rgba(15, 23, 42, 0.72);
+}
+
 .skill-card h3 {
+  color: white;
+  font-weight: 700;
+}
+
+.answer-card h3,
+.faq-card h3 {
   color: white;
   font-weight: 700;
 }
@@ -206,7 +232,17 @@ body[data-theme="light"] .skill-card h3 {
   color: rgb(15 23 42);
 }
 
+body[data-theme="light"] .answer-card h3,
+body[data-theme="light"] .faq-card h3 {
+  color: rgb(15 23 42);
+}
+
 body[data-theme="dark"] .skill-card h3 {
+  color: white;
+}
+
+body[data-theme="dark"] .answer-card h3,
+body[data-theme="dark"] .faq-card h3 {
   color: white;
 }
 
@@ -217,11 +253,29 @@ body[data-theme="dark"] .skill-card h3 {
   font-size: 0.95rem;
 }
 
+.answer-card p,
+.faq-card p {
+  margin-top: 0.5rem;
+  color: rgb(148 163 184);
+  line-height: 1.65;
+  font-size: 0.95rem;
+}
+
 body[data-theme="light"] .skill-card p {
   color: rgb(71 85 105);
 }
 
+body[data-theme="light"] .answer-card p,
+body[data-theme="light"] .faq-card p {
+  color: rgb(71 85 105);
+}
+
 body[data-theme="dark"] .skill-card p {
+  color: rgb(148 163 184);
+}
+
+body[data-theme="dark"] .answer-card p,
+body[data-theme="dark"] .faq-card p {
   color: rgb(148 163 184);
 }
 

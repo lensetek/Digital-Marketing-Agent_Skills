@@ -28,6 +28,19 @@ const translations = {
     statAgents: "agent skills detected in the project",
     statOrchestrator: "orchestrator coordinates the full team",
     statCredentials: "credentials required in prompts or frontend files",
+    aioEyebrow: "SEO and AIO Ready",
+    aioTitle: "Clear answers for people, search engines, and AI assistants",
+    aioIntro:
+      "This page describes the agent pack in direct, structured language so humans can understand it quickly and AI answer engines can extract accurate summaries.",
+    aioWhatTitle: "What is it?",
+    aioWhatText:
+      "A portable Markdown-based AI agent pack for running digital marketing work through one orchestrator and 15 specialist agents.",
+    aioWhoTitle: "Who is it for?",
+    aioWhoText:
+      "Founders, marketers, agencies, course creators, and teams that want structured AI help for strategy, content, ads, analytics, and reporting.",
+    aioHowTitle: "How does it work?",
+    aioHowText:
+      "The user talks to the marketing orchestrator. The orchestrator creates a plan, delegates tasks, reviews outputs, asks for approval, and reports results.",
     coversTitle: "What the team covers",
     coverStrategyTitle: "Strategy",
     coverStrategyText: "Digital strategy, KPIs, channel priority, and 30-day action plans.",
@@ -75,6 +88,20 @@ const translations = {
       "Checks the canonical repository for updates, compares local files, summarizes changes and risks, then asks for confirmation before updating.",
     agentLearning:
       "Maintains a safe project profile with brand voice, preferences, decisions, campaign learnings, and do-not-use notes without storing secrets.",
+    faqEyebrow: "FAQ",
+    faqTitle: "Frequently asked questions",
+    faqWhatQuestion: "What is Digital Marketing Agent Skills?",
+    faqWhatAnswer:
+      "It is a modular AI agent skills pack for digital marketing. One orchestrator coordinates specialist agents for strategy, research, SEO/AIO, content, ads, email, analytics, compliance, updates, and personalization.",
+    faqInstallQuestion: "How do I install it?",
+    faqInstallAnswer:
+      "Copy the install prompt, paste it into your AI agent workspace, let the installer download the repository, confirm the detected agent count, and approve the installation.",
+    faqPlatformsQuestion: "Which platforms can use it?",
+    faqPlatformsAnswer:
+      "The skills are portable Markdown instructions for Antigravity, Claude, Codex, Gemini custom agents, and other agent environments that can consume role instructions.",
+    faqSafeQuestion: "Can it publish or spend ad budget automatically?",
+    faqSafeAnswer:
+      "No. The default workflow is draft plus approval. Publishing, email sending, account changes, repository updates, and ad spend require explicit user approval.",
     footerCopyright: "Copyright 2026 Lensetek International, LLC.",
   },
   id: {
@@ -97,6 +124,19 @@ const translations = {
     statAgents: "agent skills terdeteksi di project",
     statOrchestrator: "orchestrator mengoordinasikan seluruh tim",
     statCredentials: "credential dibutuhkan di prompt atau file frontend",
+    aioEyebrow: "Siap SEO dan AIO",
+    aioTitle: "Jawaban jelas untuk manusia, mesin pencari, dan AI assistant",
+    aioIntro:
+      "Halaman ini menjelaskan agent pack dengan bahasa langsung dan terstruktur agar mudah dipahami manusia serta mudah diringkas oleh AI answer engine.",
+    aioWhatTitle: "Apa ini?",
+    aioWhatText:
+      "AI agent pack berbasis Markdown yang portable untuk menjalankan pekerjaan digital marketing lewat satu orchestrator dan 15 agent spesialis.",
+    aioWhoTitle: "Untuk siapa?",
+    aioWhoText:
+      "Founder, marketer, agensi, course creator, dan tim yang butuh bantuan AI terstruktur untuk strategi, konten, iklan, analytics, dan reporting.",
+    aioHowTitle: "Cara kerjanya?",
+    aioHowText:
+      "User bicara ke marketing orchestrator. Orchestrator membuat rencana, membagi tugas, mereview output, meminta approval, dan melaporkan hasil.",
     coversTitle: "Yang dicakup tim agent",
     coverStrategyTitle: "Strategi",
     coverStrategyText: "Strategi digital, KPI, prioritas channel, dan action plan 30 hari.",
@@ -144,6 +184,20 @@ const translations = {
       "Mengecek update repository canonical, membandingkan file lokal, merangkum perubahan dan risiko, lalu meminta konfirmasi sebelum update.",
     agentLearning:
       "Menjaga project profile yang aman berisi brand voice, preferensi, keputusan, learning campaign, dan do-not-use note tanpa menyimpan secret.",
+    faqEyebrow: "FAQ",
+    faqTitle: "Pertanyaan umum",
+    faqWhatQuestion: "Apa itu Digital Marketing Agent Skills?",
+    faqWhatAnswer:
+      "Ini adalah AI agent skills pack modular untuk digital marketing. Satu orchestrator mengoordinasikan agent spesialis untuk strategi, riset, SEO/AIO, konten, iklan, email, analytics, compliance, update, dan personalisasi.",
+    faqInstallQuestion: "Bagaimana cara install?",
+    faqInstallAnswer:
+      "Copy prompt install, paste ke AI agent workspace, biarkan installer download repository, konfirmasi jumlah agent yang terdeteksi, lalu approve instalasi.",
+    faqPlatformsQuestion: "Platform apa yang bisa memakai ini?",
+    faqPlatformsAnswer:
+      "Skills ini berupa instruksi Markdown portable untuk Antigravity, Claude, Codex, Gemini custom agents, dan environment agent lain yang bisa membaca role instructions.",
+    faqSafeQuestion: "Apakah agent bisa publish atau memakai budget iklan otomatis?",
+    faqSafeAnswer:
+      "Tidak. Workflow default adalah draft plus approval. Publishing, pengiriman email, perubahan akun, update repository, dan ad spend membutuhkan approval eksplisit dari user.",
     footerCopyright: "Copyright 2026 Lensetek International, LLC.",
   },
 };
