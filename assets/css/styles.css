@@ -32,3 +32,38 @@
   line-height: 1.6;
   font-size: 0.95rem;
 }
+
+.agent-detail-card {
+  border: 1px solid rgb(30 41 59);
+  border-radius: 0.5rem;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.92), rgba(2, 6, 23, 0.94));
+  padding: 1.25rem;
+  min-height: 13rem;
+}
+
+.agent-detail-card span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  background: rgba(34, 211, 238, 0.12);
+  color: rgb(103 232 249);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.agent-detail-card h3 {
+  margin-top: 0.9rem;
+  color: white;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.agent-detail-card p {
+  margin-top: 0.6rem;
+  color: rgb(148 163 184);
+  line-height: 1.65;
+  font-size: 0.94rem;
+}
