@@ -1,3 +1,62 @@
+.theme-light {
+  background: rgb(248 250 252);
+  color: rgb(15 23 42);
+}
+
+.theme-light main {
+  background:
+    radial-gradient(circle at top left, rgba(34, 211, 238, 0.18), transparent 32rem),
+    linear-gradient(180deg, rgb(255 255 255), rgb(241 245 249));
+}
+
+.theme-light .bg-slate-950,
+.theme-light .bg-slate-900,
+.theme-light .bg-slate-900\/80 {
+  background-color: rgba(255, 255, 255, 0.88) !important;
+}
+
+.theme-light .text-white,
+.theme-light .text-slate-100 {
+  color: rgb(15 23 42) !important;
+}
+
+.theme-light .text-slate-300,
+.theme-light .text-slate-400 {
+  color: rgb(71 85 105) !important;
+}
+
+.theme-light .text-cyan-100,
+.theme-light .text-cyan-200 {
+  color: rgb(14 116 144) !important;
+}
+
+.theme-light .text-amber-200 {
+  color: rgb(146 64 14) !important;
+}
+
+.theme-light .text-emerald-200 {
+  color: rgb(4 120 87) !important;
+}
+
+.theme-light .border-slate-800,
+.theme-light .border-slate-700,
+.theme-light .border-slate-600 {
+  border-color: rgb(203 213 225) !important;
+}
+
+.theme-light .shadow-cyan-950\/30 {
+  box-shadow: 0 24px 70px rgba(14, 116, 144, 0.16) !important;
+}
+
+.theme-light .theme-toggle {
+  color: rgb(15 23 42) !important;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.theme-light .theme-toggle:hover {
+  border-color: rgb(14 116 144) !important;
+}
+
 .command-box {
   margin: 0;
   max-width: 100%;
@@ -14,6 +73,12 @@
   line-height: 1.65;
 }
 
+.theme-light .command-box {
+  border-color: rgb(203 213 225);
+  background: rgb(15 23 42);
+  color: rgb(248 250 252);
+}
+
 .skill-card {
   border: 1px solid rgb(30 41 59);
   border-radius: 0.5rem;
@@ -21,9 +86,18 @@
   padding: 1.25rem;
 }
 
+.theme-light .skill-card {
+  border-color: rgb(203 213 225);
+  background: rgba(255, 255, 255, 0.9);
+}
+
 .skill-card h3 {
   color: white;
   font-weight: 700;
+}
+
+.theme-light .skill-card h3 {
+  color: rgb(15 23 42);
 }
 
 .skill-card p {
@@ -33,12 +107,21 @@
   font-size: 0.95rem;
 }
 
+.theme-light .skill-card p {
+  color: rgb(71 85 105);
+}
+
 .agent-detail-card {
   border: 1px solid rgb(30 41 59);
   border-radius: 0.5rem;
   background: linear-gradient(180deg, rgba(15, 23, 42, 0.92), rgba(2, 6, 23, 0.94));
   padding: 1.25rem;
   min-height: 13rem;
+}
+
+.theme-light .agent-detail-card {
+  border-color: rgb(203 213 225);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 250, 252, 0.96));
 }
 
 .agent-detail-card span {
@@ -54,6 +137,11 @@
   font-weight: 700;
 }
 
+.theme-light .agent-detail-card span {
+  background: rgba(14, 116, 144, 0.1);
+  color: rgb(14 116 144);
+}
+
 .agent-detail-card h3 {
   margin-top: 0.9rem;
   color: white;
@@ -61,9 +149,17 @@
   overflow-wrap: anywhere;
 }
 
+.theme-light .agent-detail-card h3 {
+  color: rgb(15 23 42);
+}
+
 .agent-detail-card p {
   margin-top: 0.6rem;
   color: rgb(148 163 184);
   line-height: 1.65;
   font-size: 0.94rem;
+}
+
+.theme-light .agent-detail-card p {
+  color: rgb(71 85 105);
 }
