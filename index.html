@@ -25,8 +25,10 @@
             <span class="text-sm font-semibold uppercase tracking-[0.18em] text-cyan-200">Agent Skills</span>
           </a>
           <div class="flex items-center gap-3 text-sm">
-            <a class="text-slate-300 hover:text-white" href="README.en.md">English</a>
-            <a class="text-slate-300 hover:text-white" href="README.id.md">Indonesia</a>
+            <div class="language-switch inline-flex rounded-md border border-slate-600 p-1" aria-label="Language switcher">
+              <button type="button" class="language-button is-active" data-lang="en" aria-pressed="true">English</button>
+              <button type="button" class="language-button" data-lang="id" aria-pressed="false">Indonesia</button>
+            </div>
             <button
               type="button"
               class="theme-toggle inline-flex items-center gap-2 rounded-md border border-slate-600 px-3 py-2 text-sm font-semibold text-slate-100 hover:border-slate-300 focus:outline-none focus:ring-2 focus:ring-cyan-200"
@@ -44,20 +46,20 @@
 
         <div class="mx-auto grid max-w-6xl gap-10 pb-16 pt-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:pt-20">
           <div>
-            <p class="mb-5 inline-flex rounded-full border border-cyan-300/30 bg-cyan-300/10 px-4 py-2 text-sm text-cyan-100">
+            <p class="mb-5 inline-flex rounded-full border border-cyan-300/30 bg-cyan-300/10 px-4 py-2 text-sm text-cyan-100" data-i18n="heroBadge">
               15 modular agent skills + one marketing orchestrator
             </p>
-            <h1 class="max-w-3xl text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
+            <h1 class="max-w-3xl text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl" data-i18n="heroTitle">
               A full digital marketing team you can install with one prompt.
             </h1>
-            <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
+            <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300" data-i18n="heroSubtitle">
               Talk to one orchestrator. It plans the work, coordinates specialist agents, asks for approval, and reports the result. Portable Markdown instructions for Antigravity, Claude, Codex, Gemini, and other agent workspaces.
             </p>
             <div class="mt-8 flex flex-wrap gap-3">
-              <a href="#install" class="rounded-md bg-cyan-300 px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-cyan-200">
+              <a href="#install" class="rounded-md bg-cyan-300 px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-cyan-200" data-i18n="copyInstallPrompt">
                 Copy install prompt
               </a>
-              <a href="README.en.md" class="rounded-md border border-slate-600 px-5 py-3 text-sm font-semibold text-slate-100 hover:border-slate-300">
+              <a href="README.en.md" class="rounded-md border border-slate-600 px-5 py-3 text-sm font-semibold text-slate-100 hover:border-slate-300" data-i18n="readDocs" data-doc-link>
                 Read docs
               </a>
             </div>
@@ -66,8 +68,8 @@
           <section id="install" class="rounded-lg border border-slate-700 bg-slate-900/80 p-5 shadow-2xl shadow-cyan-950/30">
             <div class="mb-4 flex items-center justify-between gap-4">
               <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-amber-200">Install Prompt</p>
-                <p class="mt-1 text-sm text-slate-400">Paste this into your AI agent workspace.</p>
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-amber-200" data-i18n="installLabel">Install Prompt</p>
+                <p class="mt-1 text-sm text-slate-400" data-i18n="installHelp">Paste this into your AI agent workspace.</p>
               </div>
               <button
                 type="button"
@@ -79,11 +81,11 @@
                   <rect x="9" y="9" width="13" height="13" rx="2"></rect>
                   <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
                 </svg>
-                <span data-copy-label>Copy</span>
+                <span data-copy-label data-i18n="copyButton">Copy</span>
               </button>
             </div>
             <pre class="command-box"><code id="installPrompt">download and install this agent https://github.com/lensetek/Digital-Marketing-Agent_Skills</code></pre>
-            <p class="mt-4 text-sm leading-6 text-slate-400">
+            <p class="mt-4 text-sm leading-6 text-slate-400" data-i18n-html="installNote">
               The installer agent should download the repository, count <span class="font-mono text-slate-200">skills/*/SKILL.md</span>, show the detected agents, and ask for confirmation before installing.
             </p>
           </section>
@@ -94,46 +96,46 @@
         <div class="mx-auto grid max-w-6xl gap-4 sm:grid-cols-3">
           <div class="rounded-lg border border-slate-800 bg-slate-950 p-5">
             <p class="text-3xl font-semibold text-cyan-200">15</p>
-            <p class="mt-2 text-sm text-slate-400">agent skills detected in the project</p>
+            <p class="mt-2 text-sm text-slate-400" data-i18n="statAgents">agent skills detected in the project</p>
           </div>
           <div class="rounded-lg border border-slate-800 bg-slate-950 p-5">
             <p class="text-3xl font-semibold text-amber-200">1</p>
-            <p class="mt-2 text-sm text-slate-400">orchestrator coordinates the full team</p>
+            <p class="mt-2 text-sm text-slate-400" data-i18n="statOrchestrator">orchestrator coordinates the full team</p>
           </div>
           <div class="rounded-lg border border-slate-800 bg-slate-950 p-5">
             <p class="text-3xl font-semibold text-emerald-200">0</p>
-            <p class="mt-2 text-sm text-slate-400">credentials required in prompts or frontend files</p>
+            <p class="mt-2 text-sm text-slate-400" data-i18n="statCredentials">credentials required in prompts or frontend files</p>
           </div>
         </div>
       </section>
 
       <section class="px-5 py-14 sm:px-8 lg:px-12">
         <div class="mx-auto max-w-6xl">
-          <h2 class="text-2xl font-semibold text-white">What the team covers</h2>
+          <h2 class="text-2xl font-semibold text-white" data-i18n="coversTitle">What the team covers</h2>
           <div class="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             <article class="skill-card">
-              <h3>Strategy</h3>
-              <p>Digital strategy, KPIs, channel priority, and 30-day action plans.</p>
+              <h3 data-i18n="coverStrategyTitle">Strategy</h3>
+              <p data-i18n="coverStrategyText">Digital strategy, KPIs, channel priority, and 30-day action plans.</p>
             </article>
             <article class="skill-card">
-              <h3>Research</h3>
-              <p>Competitors, personas, social listening, narrative intelligence, and market insight.</p>
+              <h3 data-i18n="coverResearchTitle">Research</h3>
+              <p data-i18n="coverResearchText">Competitors, personas, social listening, narrative intelligence, and market insight.</p>
             </article>
             <article class="skill-card">
-              <h3>SEO and AIO</h3>
-              <p>Keyword maps, on-page SEO, local SEO, and post-search visibility.</p>
+              <h3 data-i18n="coverSeoTitle">SEO and AIO</h3>
+              <p data-i18n="coverSeoText">Keyword maps, on-page SEO, local SEO, and post-search visibility.</p>
             </article>
             <article class="skill-card">
-              <h3>Content and Social</h3>
-              <p>Brand voice, content calendars, social media plans, and engagement workflows.</p>
+              <h3 data-i18n="coverContentTitle">Content and Social</h3>
+              <p data-i18n="coverContentText">Brand voice, content calendars, social media plans, and engagement workflows.</p>
             </article>
             <article class="skill-card">
-              <h3>Ads and Video</h3>
-              <p>Google Ads, display concepts, A/B tests, scripts, storyboards, and micro-ad prompts.</p>
+              <h3 data-i18n="coverAdsTitle">Ads and Video</h3>
+              <p data-i18n="coverAdsText">Google Ads, display concepts, A/B tests, scripts, storyboards, and micro-ad prompts.</p>
             </article>
             <article class="skill-card">
-              <h3>Learning and Updates</h3>
-              <p>Project personalization, safe memory, update checks, approval gates, and final reports.</p>
+              <h3 data-i18n="coverLearningTitle">Learning and Updates</h3>
+              <p data-i18n="coverLearningText">Project personalization, safe memory, update checks, approval gates, and final reports.</p>
             </article>
           </div>
         </div>
@@ -142,9 +144,9 @@
       <section class="border-t border-slate-800 bg-slate-950 px-5 py-14 sm:px-8 lg:px-12">
         <div class="mx-auto max-w-6xl">
           <div class="max-w-3xl">
-            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-200">Agent Skills Detail</p>
-            <h2 class="mt-3 text-3xl font-semibold text-white">A modular team for the full digital marketing cycle</h2>
-            <p class="mt-4 text-base leading-7 text-slate-400">
+            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-200" data-i18n="detailEyebrow">Agent Skills Detail</p>
+            <h2 class="mt-3 text-3xl font-semibold text-white" data-i18n="detailTitle">A modular team for the full digital marketing cycle</h2>
+            <p class="mt-4 text-base leading-7 text-slate-400" data-i18n="detailText">
               Each skill is a focused role instruction. The orchestrator creates the plan, sends task briefs to the right specialist agents, collects their output reports, runs review, and turns everything into one clear marketing execution report.
             </p>
           </div>
@@ -153,77 +155,77 @@
             <article class="agent-detail-card">
               <span>01</span>
               <h3>marketing-orchestrator</h3>
-              <p>The main user-facing agent. It performs intake, creates campaign execution plans, delegates tasks, manages approvals, synthesizes results, and reports progress.</p>
+              <p data-i18n="agentMarketingOrchestrator">The main user-facing agent. It performs intake, creates campaign execution plans, delegates tasks, manages approvals, synthesizes results, and reports progress.</p>
             </article>
             <article class="agent-detail-card">
               <span>02</span>
               <h3>marketing-director</h3>
-              <p>Turns a business brief into strategy: objectives, audience, positioning, channel priorities, KPIs, and a practical 30-day action plan.</p>
+              <p data-i18n="agentMarketingDirector">Turns a business brief into strategy: objectives, audience, positioning, channel priorities, KPIs, and a practical 30-day action plan.</p>
             </article>
             <article class="agent-detail-card">
               <span>03</span>
               <h3>market-research-analyst</h3>
-              <p>Researches the market, competitors, customer pains, personas, digital twins, social listening signals, and opportunity gaps.</p>
+              <p data-i18n="agentMarketResearch">Researches the market, competitors, customer pains, personas, digital twins, social listening signals, and opportunity gaps.</p>
             </article>
             <article class="agent-detail-card">
               <span>04</span>
               <h3>seo-aio-strategist</h3>
-              <p>Builds keyword maps, search intent groups, on-page SEO recommendations, local SEO checklists, and AI answer optimization briefs.</p>
+              <p data-i18n="agentSeoAio">Builds keyword maps, search intent groups, on-page SEO recommendations, local SEO checklists, and AI answer optimization briefs.</p>
             </article>
             <article class="agent-detail-card">
               <span>05</span>
               <h3>landing-page-conversion-specialist</h3>
-              <p>Creates landing page structure, conversion copy, CTA options, FAQ, objection handling, trust elements, and mobile-friendly recommendations.</p>
+              <p data-i18n="agentLandingPage">Creates landing page structure, conversion copy, CTA options, FAQ, objection handling, trust elements, and mobile-friendly recommendations.</p>
             </article>
             <article class="agent-detail-card">
               <span>06</span>
               <h3>content-strategist</h3>
-              <p>Defines content pillars, brand voice, content calendars, captions, article ideas, hooks, CTAs, and repurposing workflows.</p>
+              <p data-i18n="agentContent">Defines content pillars, brand voice, content calendars, captions, article ideas, hooks, CTAs, and repurposing workflows.</p>
             </article>
             <article class="agent-detail-card">
               <span>07</span>
               <h3>social-media-engagement-agent</h3>
-              <p>Designs engagement loops, comment response playbooks, sentiment handling, trend-fit checks, escalation rules, and automation boundaries.</p>
+              <p data-i18n="agentSocial">Designs engagement loops, comment response playbooks, sentiment handling, trend-fit checks, escalation rules, and automation boundaries.</p>
             </article>
             <article class="agent-detail-card">
               <span>08</span>
               <h3>paid-ads-specialist</h3>
-              <p>Plans Google Ads, paid search, display ads, media buying assumptions, ad copy variations, budget logic, and A/B testing reports.</p>
+              <p data-i18n="agentPaidAds">Plans Google Ads, paid search, display ads, media buying assumptions, ad copy variations, budget logic, and A/B testing reports.</p>
             </article>
             <article class="agent-detail-card">
               <span>09</span>
               <h3>video-creative-director</h3>
-              <p>Creates short video concepts, scripts, storyboards, product shot direction, visual prompts, micro-ad prompts, and audio vibe notes.</p>
+              <p data-i18n="agentVideo">Creates short video concepts, scripts, storyboards, product shot direction, visual prompts, micro-ad prompts, and audio vibe notes.</p>
             </article>
             <article class="agent-detail-card">
               <span>10</span>
               <h3>email-lifecycle-marketer</h3>
-              <p>Builds email plans, nurture sequences, promo emails, re-engagement flows, lifecycle maps, and personalization message matrices.</p>
+              <p data-i18n="agentEmail">Builds email plans, nurture sequences, promo emails, re-engagement flows, lifecycle maps, and personalization message matrices.</p>
             </article>
             <article class="agent-detail-card">
               <span>11</span>
               <h3>analytics-optimization-analyst</h3>
-              <p>Reads marketing metrics, interprets channel performance, identifies bottlenecks, recommends optimizations, and proposes next experiments.</p>
+              <p data-i18n="agentAnalytics">Reads marketing metrics, interprets channel performance, identifies bottlenecks, recommends optimizations, and proposes next experiments.</p>
             </article>
             <article class="agent-detail-card">
               <span>12</span>
               <h3>ethics-compliance-reviewer</h3>
-              <p>Reviews claims, privacy risk, credential exposure, spam risk, synthetic media risk, bias, and approval readiness before publishing.</p>
+              <p data-i18n="agentEthics">Reviews claims, privacy risk, credential exposure, spam risk, synthetic media risk, bias, and approval readiness before publishing.</p>
             </article>
             <article class="agent-detail-card">
               <span>13</span>
               <h3>capstone-orchestrator</h3>
-              <p>Assembles the final Ultimate Marketing AI Agent package, including instructions, knowledge base inventory, creative brief, and walkthrough script.</p>
+              <p data-i18n="agentCapstone">Assembles the final Ultimate Marketing AI Agent package, including instructions, knowledge base inventory, creative brief, and walkthrough script.</p>
             </article>
             <article class="agent-detail-card">
               <span>14</span>
               <h3>agent-update-manager</h3>
-              <p>Checks the canonical repository for updates, compares local files, summarizes changes and risks, then asks for confirmation before updating.</p>
+              <p data-i18n="agentUpdate">Checks the canonical repository for updates, compares local files, summarizes changes and risks, then asks for confirmation before updating.</p>
             </article>
             <article class="agent-detail-card">
               <span>15</span>
               <h3>project-learning-personalization-agent</h3>
-              <p>Maintains a safe project profile with brand voice, preferences, decisions, campaign learnings, and do-not-use notes without storing secrets.</p>
+              <p data-i18n="agentLearning">Maintains a safe project profile with brand voice, preferences, decisions, campaign learnings, and do-not-use notes without storing secrets.</p>
             </article>
           </div>
         </div>
@@ -231,7 +233,7 @@
 
       <footer class="border-t border-slate-800 bg-slate-950 px-5 py-8 sm:px-8 lg:px-12">
         <div class="mx-auto flex max-w-6xl flex-col gap-4 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between">
-          <p>Copyright 2026 Lensetek International, LLC.</p>
+          <p data-i18n="footerCopyright">Copyright 2026 Lensetek International, LLC.</p>
           <div class="flex flex-wrap gap-4">
             <a class="hover:text-cyan-200" href="https://lensetek.com" rel="noopener noreferrer">lensetek.com</a>
             <a class="hover:text-cyan-200" href="https://asadel.co.id" rel="noopener noreferrer">asadel.co.id</a>

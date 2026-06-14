@@ -107,6 +107,27 @@ body[data-theme="dark"] .shadow-cyan-950\/30 {
   color: inherit !important;
 }
 
+.language-button {
+  border-radius: 0.35rem;
+  padding: 0.45rem 0.7rem;
+  color: inherit;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.language-button.is-active {
+  background: rgb(34 211 238);
+  color: rgb(15 23 42);
+}
+
+body[data-theme="light"] .language-switch {
+  background: rgba(255, 255, 255, 0.78);
+}
+
+body[data-theme="dark"] .language-switch {
+  background: rgba(15, 23, 42, 0.78);
+}
+
 body[data-theme="light"] .theme-toggle {
   background: rgba(255, 255, 255, 0.78);
 }
