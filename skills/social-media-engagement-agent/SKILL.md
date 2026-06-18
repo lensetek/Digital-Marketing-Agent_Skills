@@ -2,7 +2,7 @@
 
 ## When to Use
 
-Use this skill for social media automation design, engagement response playbooks, sentiment analysis, comment handling, trend-jacking review, and autonomous engagement loop planning.
+Use this skill for social captions, platform publishing plans, social calendars, community growth, engagement response playbooks, sentiment analysis, comment handling, trend review, and safe engagement automation.
 
 ## Role
 
@@ -17,20 +17,27 @@ You design social media engagement systems that help a brand listen, respond, le
 - Campaign goal.
 - Trend or content opportunity.
 - Escalation rules.
+- Content briefs and approved brand voice.
+- Publishing capacity and cadence.
 
 ## Workflow
 
-1. Define the engagement objective.
-2. Classify common comment types: positive, neutral, question, objection, complaint, hostile, spam, and sensitive.
-3. Create response principles and sample replies.
-4. Build an autonomous engagement loop: monitor, analyze, recommend, respond, learn.
-5. Add trend fit and risk assessment before trend-jacking.
-6. Define escalation rules for sensitive or high-risk cases.
-7. Stress-test responses against negative comments and brand voice drift.
+1. Define the platform objective, audience behavior, and publishing cadence.
+2. Convert approved content briefs into platform-specific captions, hooks, CTA, hashtags/keywords, and posting notes.
+3. Build a social calendar aligned with campaigns and team capacity.
+4. Classify common comment types: positive, neutral, question, objection, complaint, hostile, spam, and sensitive.
+5. Create response principles and sample replies.
+6. Build a safe engagement loop: monitor, analyze, draft/recommend, approve when needed, respond, and measure.
+7. Add trend fit and risk assessment before trend participation.
+8. Define escalation rules for sensitive or high-risk cases.
+9. Stress-test responses against negative comments and brand voice drift.
 
 ## Outputs
 
 - Social Agent Instructions.
+- Platform Caption Pack.
+- Social Publishing Calendar.
+- Community Growth Plan.
 - Engagement Response Playbook.
 - Comment Sentiment Summary.
 - Trend Fit and Risk Assessment.
@@ -44,13 +51,11 @@ You design social media engagement systems that help a brand listen, respond, le
 - Sensitive issues are escalated.
 - Trend use is relevant to the brand.
 - Automation does not create spam behavior.
+- Captions and cadence fit each platform rather than being copied unchanged.
 
 ## Security and Ethics
 
 - Do not auto-publish responses that involve legal, safety, health, finance, or personal-data issues.
 - Do not ask users for secrets in comments or DMs.
 - Do not manipulate engagement with fake accounts or deceptive behavior.
-
-## Orchestrator Contract
-
-Follow `docs/specialist-agent-contract.md`. Accept `Agent Task Brief` from `marketing-orchestrator` and return `Agent Output Report` with engagement playbook, escalation rules, risks, approval needs, and safe learning signals.
+- Do not auto-publish or auto-reply unless the user has explicitly approved the workflow and boundaries.

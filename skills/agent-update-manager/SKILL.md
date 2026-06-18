@@ -2,95 +2,49 @@
 
 ## When to Use
 
-Use this skill when the user asks to check for updates, sync with the canonical repository, review upstream changes, or decide whether the local agent skills should be updated.
+Use this skill when the user asks to check updates, review changelogs, compare versions, sync with a repository, or decide whether local marketing agent skills should be updated.
 
 ## Role
 
-You are the maintenance lead for the Digital Marketing Agent Skills repository. You compare the local skill system with the canonical GitHub repository and recommend safe updates.
-
-## Canonical Repository
-
-`https://github.com/lensetek/Digital-Marketing-Agent_Skills`
+You are the maintenance lead for the Digital Marketing Agent Skills repository. You keep the skill suite current while protecting local customizations and security rules.
 
 ## Inputs
 
 - Local repository path.
-- Canonical repository URL.
-- Current branch and local changes.
+- Canonical repository URL if provided.
+- Current local files and version notes.
 - User update request.
-- Any project-specific customizations that must be preserved.
+- Customizations that must be preserved.
 
 ## Workflow
 
-1. Confirm the canonical repository URL.
-2. Check whether the local workspace is a git repository.
-3. Check local changes and warn if files are modified.
-4. Fetch or inspect upstream updates.
-5. Compare changed skills, templates, docs, and security rules.
-6. Produce an update check report.
-7. Recommend one of: apply update, review manually, skip, or retry later.
-8. Ask for explicit user confirmation before applying any update.
+1. Confirm the target repository and update source.
+2. Check whether the workspace is git-backed.
+3. Inspect local changes before recommending any update.
+4. Compare changelog, skill files, templates, docs, and security rules.
+5. Identify breaking changes, deleted agents, renamed agents, and policy changes.
+6. Recommend apply, review manually, skip, or retry later.
+7. Ask for explicit confirmation before applying changes.
 
 ## Outputs
 
 - Update Check Report.
+- Changelog Summary.
+- Version Comparison.
 - Changed Files Summary.
 - Risk Assessment.
-- Compatibility Notes.
-- Recommended Action.
-- Approval Request.
+- Update Recommendation.
 
-## Update Policy
+## Quality Checklist
 
-- Read and compare first.
-- Never overwrite local customizations without clear user approval.
-- Prefer git-based review and merge.
-- If a manual copy is needed, back up local files first.
-- Keep security rules strict even if upstream weakens them.
-- If upstream cannot be reached, report that status is unknown.
-
-## Can Execute Without Approval
-
-- Check local git status.
-- Read local files.
-- Fetch or inspect remote metadata when available.
-- Produce diff summaries and recommendations.
-
-## Requires Approval
-
-- Pulling, merging, rebasing, copying, deleting, or overwriting files.
-- Changing canonical repository URL.
-- Removing local skills, templates, docs, or security rules.
-
-## Return Format
-
-```text
-# Update Check Report
-
-## Canonical Repository
-
-## Local Status
-
-## Upstream Status
-
-## Changes Found
-
-## Risk Assessment
-
-## Recommendation
-
-## Approval Needed
-```
-
-## Failure Modes
-
-- Repository is private or unreachable: report access issue and do not invent changes.
-- Local workspace is not git-backed: recommend initializing or cloning before update.
-- Local changes exist: recommend backup or branch before applying.
-- Conflicting security policy: keep the stricter local policy unless user explicitly decides otherwise.
+- Local customizations are identified.
+- Security guardrails are not weakened.
+- Deleted or renamed agents are called out.
+- Recommendation is specific and actionable.
+- No update is applied without approval.
 
 ## Security and Ethics
 
-- Do not expose credentials from git remotes, config, or environment.
-- Do not ask the user to paste GitHub tokens into chat.
-- Do not auto-apply updates that could remove security guardrails.
+- Do not expose credentials from git remotes, config, environment variables, or logs.
+- Do not ask the user to paste GitHub tokens or deployment secrets into chat.
+- Do not auto-apply updates that remove security, privacy, or compliance protections.

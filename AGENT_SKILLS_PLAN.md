@@ -2,511 +2,420 @@
 
 ## Tujuan
 
-Membangun kumpulan agent skills yang bekerja seperti tim full digital marketing: dari audit awal, strategi, riset pasar, SEO/AIO, landing page, ads, konten, social media, video, email, analytics, CRM, sampai capstone berupa "Ultimate Marketing AI Agent".
-
-Sumber utama: `C:\Users\ACER\Downloads\silabus_detail_ai_driven_digital_marketing_certification.md`.
+Membangun kumpulan agent skills yang terasa seperti tim marketing profesional sungguhan. User cukup membawa brief bisnis atau campaign, lalu agent utama mengatur strategi, memilih specialist, menjalankan workflow, mengecek risiko, dan menyatukan hasil menjadi laporan marketing final.
 
 ## Prinsip Produk
 
-Agent skills ini bukan hanya "chatbot marketing". Ia harus menjadi sistem kerja tim marketing yang bisa menerima brief brand, mengolah konteks, menghasilkan output terstruktur, dan menjaga kualitas serta etika.
+- Agent suite ini adalah sistem kerja marketing, bukan LMS, kelas, atau capstone sertifikasi.
+- Setiap skill harus punya peran profesional, input, workflow, output, quality checklist, dan security/ethics guardrail.
+- `marketing-orchestrator` adalah entrypoint utama.
+- Specialist agent tetap modular agar bisa dipanggil langsung bila user tahu kebutuhan spesifik.
+- Capability teknis lintas-agent ditempatkan di folder `capabilities/` agar bisa dipakai semua agent tanpa mengotori daftar 21 marketing agent.
 
-Setiap skill harus punya:
+## Layer 1 - Leadership & Strategy
 
-- Peran yang jelas.
-- Input brief yang konsisten.
-- Langkah kerja eksplisit.
-- Output dokumen/aset yang siap dipakai.
-- Checklist quality control.
-- Guardrail security dan etika.
+### 1. Marketing Orchestrator
 
-## Struktur Tim Agent Skills
+Koordinator utama seluruh agent.
 
-### 0. Marketing Orchestrator
+Tugas:
 
-Peran utama:
+- Menerima brief.
+- Membuat rencana kerja.
+- Menentukan agent yang terlibat.
+- Mengelola workflow.
+- Menggabungkan output.
+- Menghasilkan laporan akhir.
 
-- Menjadi satu pintu percakapan dengan user.
-- Membaca project profile dan brand brief.
-- Membuat campaign execution plan.
-- Memilih agent spesialis yang relevan.
-- Mengirim task brief ke agent spesialis.
-- Menggabungkan output agent menjadi rekomendasi final.
-- Menjalankan approval gate sebelum aksi eksternal.
-- Memberi executive marketing report.
-- Mengirim learning non-sensitif ke personalization agent.
+### 2. Marketing Director
 
-Output:
+CMO virtual.
 
-- Orchestrator Intake.
-- Campaign Execution Plan.
-- Agent Task Brief.
-- Executive Marketing Report.
-- Approval Gate.
+Tugas:
 
-### 1. Marketing Director
+- Menentukan strategi marketing.
+- Positioning.
+- Target market.
+- Alokasi channel.
+- Prioritas campaign.
 
-Peran utama:
+### 3. Brand Strategist
 
-- Menerjemahkan business brief menjadi strategi digital marketing.
-- Menentukan target audience, positioning, channel priority, KPI, dan 30-day action plan.
-- Mengorkestrasi agent lain dan menyatukan output mereka menjadi campaign plan.
+Penjaga identitas brand.
 
-Sumber modul:
+Tugas:
 
-- Modul 1: Digital presence.
-- Modul 2: Online journey.
-- Modul 3: Digital strategy.
-- Modul 16.2: Best practices.
+- Brand positioning.
+- Value proposition.
+- Brand voice.
+- Messaging framework.
+- Diferensiasi kompetitor.
 
-Output:
+## Layer 2 - Research & Intelligence
 
-- Digital Presence Audit.
-- 30-Day Online Journey Action Plan.
-- Digital Strategy Worksheet.
-- Digital Marketing Best Practice Checklist.
+### 4. Market Research Analyst
 
-### 2. Market Research Analyst
+Tugas:
 
-Peran utama:
+- Market research.
+- Trend analysis.
+- Customer research.
+- Competitor research.
+- Market opportunity.
 
-- Melakukan riset niche, pelanggan, kompetitor, tren, dan social listening.
-- Membuat persona dan digital twin.
-- Menyintesis insight menjadi rekomendasi strategi.
+### 5. Competitive Intelligence Agent
 
-Sumber modul:
+Tugas:
 
-- Modul 6: AI foundations.
-- Modul 8: AI-enhanced market research.
-- Modul 13: Social listening dan trend monitoring.
+- Monitoring kompetitor.
+- Pricing analysis.
+- Competitor campaign analysis.
+- Competitor SEO analysis.
+- Benchmark industri.
 
-Output:
+### 6. Customer Journey & Funnel Strategist
 
-- AI Market Research Report.
-- Competitor Intelligence Report.
-- Persona and Digital Twin Sheet.
-- Narrative Intelligence Summary.
+Tugas:
 
-### 3. SEO and AIO Strategist
+- Customer journey mapping.
+- Funnel design.
+- Touchpoint analysis.
+- Conversion path analysis.
+- Funnel optimization strategy.
 
-Peran utama:
+## Layer 3 - Traffic Acquisition
 
-- Menyusun keyword map, search intent, on-page SEO, local SEO, dan optimasi agar brand mudah dipahami mesin pencari serta AI answer engine.
+### 7. SEO / AIO Strategist
 
-Sumber modul:
+Tugas:
 
-- Modul 4: Search engine fundamentals.
-- Modul 5: SEO dasar.
-- Modul 16.3: Post-search era.
+- Keyword research.
+- Topic cluster.
+- Semantic SEO.
+- AI Search Optimization.
+- Content opportunity mapping.
 
-Output:
+### 8. Paid Ads Specialist
 
-- Keyword Map.
-- Mini SEO Action Plan.
-- Local SEO Checklist.
-- AIO Content Optimization Brief.
+Tugas:
 
-### 4. Landing Page and Conversion Specialist
+- Google Ads.
+- Meta Ads.
+- TikTok Ads.
+- Targeting.
+- Budget planning.
+- Ad copy.
 
-Peran utama:
+### 9. Influencer & Partnership Strategist
 
-- Membuat struktur landing page, copy, CTA, FAQ, visual direction, dan mobile-friendly conversion checklist.
+Tugas:
 
-Sumber modul:
+- Influencer selection.
+- Affiliate strategy.
+- Partnership strategy.
+- Collaboration campaign.
+- Sponsorship planning.
 
-- Modul 7: Landing page and website creation.
-- Modul 15.4: Mobile marketing.
+## Layer 4 - Content Production
 
-Output:
+### 10. Content Strategist
 
-- Landing Page Draft.
-- Conversion Copy Pack.
-- Mobile-Friendly Audit Checklist.
-- FAQ and Objection Handling Sheet.
+Tugas:
 
-### 5. Content Strategist
+- Content pillar.
+- Editorial calendar.
+- Campaign content planning.
+- Storytelling framework.
 
-Peran utama:
+### 11. Growth Creative Agent
 
-- Menentukan content pillar, brand voice, kalender konten, ide konten, draft caption, artikel, hook, CTA, dan content factory workflow.
+Agent kreatif non-linear yang sengaja berpikir divergen sebelum menyaring ide.
 
-Sumber modul:
+Tugas:
 
-- Modul 11: Content marketing and generative AI.
-- Modul 12: Social media marketing.
+- Ide absurd.
+- Viral concepts.
+- Unconventional campaigns.
+- Meme marketing.
+- Attention engineering.
+- Creative angle generation.
 
-Output:
+### 12. Video Creative Director
 
-- AI Content Calendar.
-- 30-Day Social Media Posting Plan.
-- 5 Ready-to-Publish Content Drafts.
-- Brand Voice Guide.
+Tugas:
 
-### 6. Social Media Engagement Agent
+- Video concept.
+- Script writing.
+- Storyboard.
+- Hook design.
+- YouTube, TikTok, dan Reels.
 
-Peran utama:
+### 13. Video Pattern Reverse Engineer
 
-- Membuat instruksi agent untuk monitoring, analisis sentimen, rekomendasi respons, trend-jacking, dan autonomous engagement loop.
+Tugas:
 
-Sumber modul:
+- Menganalisis video contoh.
+- Membongkar pola viral.
+- Membaca hook.
+- Membaca struktur video.
+- Membaca CTA.
+- Membuat template kreatif yang dapat digunakan ulang.
 
-- Modul 12: Social media marketing.
-- Modul 13: Social media automation and engagement.
+Input:
 
-Output:
+- YouTube.
+- TikTok.
+- Reels.
+- Shorts.
+- File video.
 
-- Social Agent Instructions.
-- Engagement Response Playbook.
-- Trend Fit and Risk Assessment.
-- Comment Sentiment Summary.
+### 14. Social Media Engagement Agent
 
-### 7. Paid Ads Specialist
+Tugas:
 
-Peran utama:
+- Caption.
+- Engagement.
+- Community growth.
+- Social calendar.
+- Audience interaction.
 
-- Menyusun Google Ads, paid search, display ads, media buying strategy, creative variation, budget, KPI, dan optimization plan.
+## Layer 5 - Conversion & Retention
 
-Sumber modul:
+### 15. Landing Page Conversion Specialist
 
-- Modul 9: Google Ads.
-- Modul 10: A/B testing.
-- Modul 15.1: AI ads and media buying.
-- Modul 15.3: Display ads.
+Tugas:
 
-Output:
+- Landing page structure.
+- Conversion copywriting.
+- CTA optimization.
+- CRO recommendation.
 
-- Mini Google Ads Campaign Plan.
-- AI Ads Strategy Sheet.
-- Simple Display Ad Concept.
-- Simple A/B Testing Ad Report.
+### 16. Email Lifecycle Marketer
 
-### 8. Video Creative Director
+Tugas:
 
-Peran utama:
+- Welcome sequence.
+- Nurturing.
+- Promotional email.
+- Retention email.
+- Reactivation campaign.
 
-- Membuat ide video pendek, script, storyboard, visual prompt, micro-video prompt 5-8 detik, dan audio direction.
+### 17. CRM & Customer Retention Agent
 
-Sumber modul:
+Tugas:
 
-- Modul 11: Visual/video production.
-- Modul 14: Video and content marketing.
-- Capstone creative samples.
+- Segmentation.
+- Loyalty program.
+- Repeat purchase strategy.
+- Churn prevention.
+- Win-back campaign.
 
-Output:
+### 18. Marketing Automation Specialist
 
-- 7-Day Video Content Challenge Plan.
-- Short Video Script Pack.
-- Micro-Ad Prompt.
-- Audio Vibe Direction.
+Tugas:
 
-### 9. Email and Lifecycle Marketer
+- Workflow automation.
+- Lead nurturing.
+- CRM automation.
+- Email automation.
+- WhatsApp automation.
+- Trigger design.
 
-Peran utama:
+## Layer 6 - Measurement & Governance
 
-- Menyusun email plan, sequence, subject line, newsletter, promo, re-engagement, abandoned cart, dan personalization map.
+### 19. Analytics & Optimization Analyst
 
-Sumber modul:
+Tugas:
 
-- Modul 15.2: Email marketing.
-- Modul 16.1: CRM and personalization.
+- KPI tracking.
+- Campaign evaluation.
+- Attribution analysis.
+- Funnel analytics.
+- Optimization recommendation.
 
-Output:
+### 20. Ethics & Compliance Reviewer
 
-- Simple Email Plan.
-- 3 Email Campaign Drafts.
-- Customer Lifecycle Personalization Map.
-- Segment Message Matrix.
+Tugas:
 
-### 10. Analytics and Optimization Analyst
+- Compliance review.
+- Legal risk review.
+- Claim validation.
+- Privacy review.
+- Reputation risk review.
 
-Peran utama:
+### 21. Agent Update Manager
 
-- Membaca metrik marketing, menemukan pola, membuat insight, memberi rekomendasi tindakan, dan menghubungkan analytics ke eksperimen berikutnya.
+Tugas:
 
-Sumber modul:
+- Update repository.
+- Changelog review.
+- Version management.
+- Update recommendation.
 
-- Modul 10: A/B testing.
-- Modul 15.5: Web analytics.
+## Yang Dihapus
 
-Output:
+### Capstone Orchestrator
 
-- Simple Analytics Insight Report.
-- Channel Performance Summary.
-- Campaign Optimization Recommendations.
-- Next Experiment Backlog.
+Alasan:
 
-### 11. Ethics and Compliance Reviewer
+- Bukan fungsi marketing.
+- Fungsi pembelajaran/sertifikasi.
 
-Peran utama:
+### Project Learning Personalization Agent
 
-- Mengecek risiko persuasi manipulatif, klaim berlebihan, privasi data, spam otomatis, deepfake, bias, dan keamanan credential.
+Alasan:
 
-Sumber modul:
+- Fungsi LMS.
+- Fungsi pendidikan/personalization memory.
+- Bukan digital marketing inti.
 
-- Modul 6: Batasan AI.
-- Modul 16.3: Ethics, future trends, and AI agents.
-- Instruksi repo: pastikan tidak ada credential yang terekspos di frontend.
+## Capability Layer
 
-Output:
+Bukan agent marketing, tetapi kemampuan teknis yang bisa dipakai semua agent Lensetek. Untuk sekarang capability dibuat di repo ini pada folder `capabilities/`; nanti bisa dipindahkan ke repo terpisah jika perlu distribusi lintas produk.
 
-- AI Marketing Ethics and Future Trends Reflection.
-- Campaign Risk Review.
-- Privacy and Credential Exposure Checklist.
-- Approval Notes Before Publishing.
+- Browser Automation Capability: `capabilities/browser-automation`.
+- Web Research Capability: `capabilities/web-research`.
+- Web Scraping Capability: `capabilities/web-scraping`.
+- Video Understanding Capability: `capabilities/video-understanding`.
+- GitHub Repository Capability: `capabilities/github-repository`.
+- File Operations Capability: `capabilities/file-operations`.
+- Document Processing Capability: `capabilities/document-processing`.
+- Spreadsheet Operations Capability: `capabilities/spreadsheet-operations`.
+- Presentation Operations Capability: `capabilities/presentation-operations`.
+- Email Operations Capability: `capabilities/email-operations`.
+- Scheduling Operations Capability: `capabilities/scheduling-operations`.
+- Knowledge Base / RAG Capability: `capabilities/knowledge-base-rag`.
 
-### 12. Capstone Orchestrator
+Capability boleh diimplementasikan sebagai:
 
-Peran utama:
+- `SKILL.md` sebagai kontrak instruksi.
+- `scripts/*.py` atau `scripts/*.js` untuk pekerjaan teknis.
+- `templates/` untuk input/output.
+- MCP/tool adapter jika nanti butuh pemanggilan formal lintas platform.
 
-- Menggabungkan output semua agent menjadi "Ultimate Marketing AI Agent" untuk niche tertentu.
-- Menyusun system instructions, knowledge base plan, creative samples, dan walkthrough structure.
+Computer Use hanya fallback jika capability tidak bisa dijalankan dengan script, API, CLI, MCP, connector, atau browser automation biasa.
 
-Sumber modul:
-
-- Capstone Project.
-- Rubrik penilaian.
-
-Output:
-
-- Ultimate Marketing AI Agent Instructions.
-- Knowledge Base Inventory.
-- Creative Brief.
-- Final Submission Checklist.
-
-### 13. Agent Update Manager
-
-Peran utama:
-
-- Mengecek update dari repository canonical `https://github.com/lensetek/Digital-Marketing-Agent_Skills`.
-- Membandingkan perubahan skill, template, docs, dan security rules.
-- Memberi ringkasan update dan risiko.
-- Meminta konfirmasi sebelum menerapkan update.
-
-Output:
-
-- Update Check Report.
-- Changed Files Summary.
-- Risk Assessment.
-- Recommended Action.
-
-### 14. Project Learning and Personalization Agent
-
-Peran utama:
-
-- Menyimpan konteks project yang aman dan berguna.
-- Membedakan fakta, asumsi, preferensi, keputusan, dan hasil eksperimen.
-- Membantu orchestrator memberi rekomendasi yang semakin personal.
-- Menolak penyimpanan credential dan data sensitif.
-
-Output:
-
-- Project Profile.
-- Personalization Notes.
-- Campaign Learning Summary.
-- Do-Not-Use Notes.
-
-## Workflow End-to-End
-
-1. User berbicara ke Marketing Orchestrator.
-2. Marketing Orchestrator membaca project profile atau membuat intake baru.
-3. Project Learning and Personalization Agent memberi konteks project yang aman digunakan.
-4. Marketing Orchestrator membuat campaign execution plan dan task queue.
-5. Marketing Orchestrator mengirim task brief ke specialist agents yang relevan.
-6. Specialist agents mengembalikan agent output report.
-7. Marketing Orchestrator menyintesis semua output menjadi satu rekomendasi.
-8. Analytics and Optimization Analyst mengecek measurement plan jika ada data/performa.
-9. Ethics and Compliance Reviewer mengecek klaim, privasi, credential exposure, dan approval risk.
-10. Marketing Orchestrator memberi executive marketing report dan approval gate.
-11. Project Learning and Personalization Agent menyimpan learning non-sensitif yang disetujui.
-12. Capstone Orchestrator digunakan khusus untuk final certification/project package.
-
-## Struktur Repo yang Disarankan
+## Struktur Repo
 
 ```text
 Digital-Marketing-Agent_Skill/
   AGENT_SKILLS_PLAN.md
   README.md
+  docs/
+    security-checklist.md
   skills/
-    marketing-director/
-      SKILL.md
-      templates/
-    market-research-analyst/
-      SKILL.md
-      templates/
-    seo-aio-strategist/
-      SKILL.md
-      templates/
-    landing-page-conversion-specialist/
-      SKILL.md
-      templates/
-    content-strategist/
-      SKILL.md
-      templates/
-    social-media-engagement-agent/
-      SKILL.md
-      templates/
-    paid-ads-specialist/
-      SKILL.md
-      templates/
-    video-creative-director/
-      SKILL.md
-      templates/
-    email-lifecycle-marketer/
-      SKILL.md
-      templates/
-    analytics-optimization-analyst/
-      SKILL.md
-      templates/
-    ethics-compliance-reviewer/
-      SKILL.md
-      templates/
-    capstone-orchestrator/
-      SKILL.md
-      templates/
     marketing-orchestrator/
       SKILL.md
-      templates/
+    marketing-director/
+      SKILL.md
+    brand-strategist/
+      SKILL.md
+    market-research-analyst/
+      SKILL.md
+    competitive-intelligence-agent/
+      SKILL.md
+    customer-journey-funnel-strategist/
+      SKILL.md
+    seo-aio-strategist/
+      SKILL.md
+    paid-ads-specialist/
+      SKILL.md
+    influencer-partnership-strategist/
+      SKILL.md
+    content-strategist/
+      SKILL.md
+    growth-creative-agent/
+      SKILL.md
+    video-creative-director/
+      SKILL.md
+    video-pattern-reverse-engineer/
+      SKILL.md
+    social-media-engagement-agent/
+      SKILL.md
+    landing-page-conversion-specialist/
+      SKILL.md
+    email-lifecycle-marketer/
+      SKILL.md
+    crm-customer-retention-agent/
+      SKILL.md
+    marketing-automation-specialist/
+      SKILL.md
+    analytics-optimization-analyst/
+      SKILL.md
+    ethics-compliance-reviewer/
+      SKILL.md
     agent-update-manager/
       SKILL.md
-      templates/
-    project-learning-personalization-agent/
+  capabilities/
+    browser-automation/
       SKILL.md
-      templates/
+    web-research/
+      SKILL.md
+    web-scraping/
+      SKILL.md
+    video-understanding/
+      SKILL.md
+    github-repository/
+      SKILL.md
+    file-operations/
+      SKILL.md
+    document-processing/
+      SKILL.md
+    spreadsheet-operations/
+      SKILL.md
+    presentation-operations/
+      SKILL.md
+    email-operations/
+      SKILL.md
+    scheduling-operations/
+      SKILL.md
+    knowledge-base-rag/
+      SKILL.md
   templates/
     brand-brief.md
     campaign-brief.md
     final-agent-package.md
-    orchestrator-intake.md
-    campaign-execution-plan.md
-    agent-task-brief.md
-    agent-output-report.md
-    executive-marketing-report.md
-    approval-gate.md
-    project-profile.md
-    update-check-report.md
-  docs/
-    syllabus-source-notes.md
-    security-checklist.md
-    orchestration-model.md
-    update-policy.md
-    personalization-policy.md
 ```
 
 ## Skill Template Standard
 
-Setiap `SKILL.md` sebaiknya mengikuti format ini:
+Setiap `SKILL.md` mengikuti format:
 
 ```text
 # Skill Name
 
 ## When to Use
 
-Kapan skill ini dipanggil.
-
 ## Role
-
-Peran profesional agent.
 
 ## Inputs
 
-Data minimum yang dibutuhkan.
-
 ## Workflow
-
-Langkah kerja agent dari menerima brief sampai menghasilkan output.
 
 ## Outputs
 
-Daftar deliverable konkret.
-
 ## Quality Checklist
 
-Kriteria output bagus.
-
 ## Security and Ethics
-
-Larangan dan hal yang wajib dicek.
 ```
 
 ## Security Guardrails
 
-Karena repo ini diarahkan menjadi agent skills, risiko credential biasanya muncul saat nanti ada integrasi API, dashboard, frontend, atau contoh konfigurasi. Guardrail wajib:
-
-- Jangan menaruh API key, token, client secret, refresh token, private key, service account JSON, atau password di frontend.
-- Anggap semua variabel `VITE_*`, `NEXT_PUBLIC_*`, file HTML, JS browser, dan asset publik sebagai data publik.
-- Gunakan `.env.example` hanya dengan placeholder, bukan credential asli.
-- Jika ada backend, secret hanya dibaca dari environment server.
+- Jangan menaruh API key, token, client secret, refresh token, private key, service account JSON, password, billing data, atau credential asli di frontend, prompt, template, atau docs publik.
+- Anggap `VITE_*`, `NEXT_PUBLIC_*`, file HTML, JS browser, dan public assets sebagai data publik.
+- Gunakan `.env.example` hanya dengan placeholder.
+- Jika ada backend, secret hanya dibaca dari environment server atau secret store.
 - Jangan menyarankan user menempelkan credential ke prompt agent.
 - Jangan memasukkan data pelanggan sensitif ke template tanpa redaksi.
-- Semua output campaign harus dicek agar tidak menyesatkan, diskriminatif, manipulatif, atau melanggar privasi.
-
-## Roadmap Implementasi
-
-### Phase 1: Foundation
-
-- Buat `README.md` yang menjelaskan tujuan repo dan daftar agent skills.
-- Buat template standar `SKILL.md`.
-- Buat `brand-brief.md`, `campaign-brief.md`, dan `final-agent-package.md`.
-- Buat `security-checklist.md`.
-
-### Phase 2: Core Strategy Skills
-
-- Implement `marketing-director`.
-- Implement `market-research-analyst`.
-- Implement `seo-aio-strategist`.
-- Implement `landing-page-conversion-specialist`.
-
-### Phase 3: Channel Execution Skills
-
-- Implement `content-strategist`.
-- Implement `social-media-engagement-agent`.
-- Implement `paid-ads-specialist`.
-- Implement `video-creative-director`.
-- Implement `email-lifecycle-marketer`.
-
-### Phase 4: Measurement and Governance
-
-- Implement `analytics-optimization-analyst`.
-- Implement `ethics-compliance-reviewer`.
-- Tambahkan quality checklist per skill.
-
-### Phase 5: Capstone System
-
-- Implement `capstone-orchestrator`.
-- Buat final package template.
-- Tambahkan sample workflow dari brand brief sampai final marketing agent.
-
-### Phase 6: Orchestration, Update, and Personalization
-
-- Implement `marketing-orchestrator`.
-- Implement `agent-update-manager`.
-- Implement `project-learning-personalization-agent`.
-- Tambahkan template task brief, output report, approval gate, update report, dan project profile.
-- Tambahkan docs orchestration, update policy, dan personalization policy.
-
-## Prioritas Awal
-
-Urutan paling efektif untuk mulai:
-
-1. `marketing-director`
-2. `market-research-analyst`
-3. `content-strategist`
-4. `paid-ads-specialist`
-5. `ethics-compliance-reviewer`
-6. `capstone-orchestrator`
-
-Dengan enam skill ini, repo sudah bisa menghasilkan strategi, riset, konten, ads, review risiko, dan final agent package.
+- Semua output campaign harus dicek agar tidak menyesatkan, diskriminatif, manipulatif, melanggar privasi, atau melanggar platform policy.
 
 ## Definition of Done
 
 Repo dianggap siap sebagai tim full digital marketing jika:
 
-- Ada minimal 15 agent skills dengan `SKILL.md` lengkap.
-- Setiap skill punya template output.
-- Ada workflow end-to-end dari user request ke executive marketing report.
-- Ada satu orchestrator utama untuk koordinasi agent modular.
-- Ada update manager yang mengecek repository canonical dan meminta konfirmasi sebelum update.
-- Ada personalization agent yang menyimpan project learning non-sensitif.
+- Ada 21 agent marketing dengan `SKILL.md` lengkap.
+- Tidak ada `capstone-orchestrator` atau `project-learning-personalization-agent` di root suite.
+- Ada workflow end-to-end dari brief ke final marketing report.
 - Ada security checklist yang eksplisit.
-- Ada ethics reviewer sebelum output final.
-- Ada capstone orchestrator yang menggabungkan semua output.
-- Tidak ada credential asli di repo.
+- Ethics reviewer menjadi approval gate sebelum publikasi.
+- Tidak ada credential asli di repo atau frontend-facing file.

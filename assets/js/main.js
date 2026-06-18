@@ -12,7 +12,7 @@ const translations = {
     pageTitle: "Digital Marketing Agent Skills",
     docHref: "docs-en.html",
     installPrompt: "download and install this agent https://github.com/lensetek/Digital-Marketing-Agent_Skills",
-    heroBadge: "15 modular agent skills + one marketing orchestrator",
+    heroBadge: "21-agent marketing team + 12 capabilities",
     heroTitle: "A full digital marketing team you can install with one prompt.",
     heroSubtitle:
       "Talk to one orchestrator. It plans the work, coordinates specialist agents, asks for approval, and reports the result. Portable Markdown instructions for Antigravity, Claude, Codex, Gemini, and other agent workspaces.",
@@ -26,7 +26,7 @@ const translations = {
     installNote:
       'The installer agent should download the repository, count <span class="font-mono">skills/*/SKILL.md</span>, show the detected agents, and ask for confirmation before installing.',
     statAgents: "agent skills detected in the project",
-    statOrchestrator: "orchestrator coordinates the full team",
+    statOrchestrator: "technical capabilities support execution",
     statCredentials: "credentials required in prompts or frontend files",
     aioEyebrow: "SEO and AIO Ready",
     aioTitle: "Clear answers for people, search engines, and AI assistants",
@@ -34,7 +34,7 @@ const translations = {
       "This page describes the agent pack in direct, structured language so humans can understand it quickly and AI answer engines can extract accurate summaries.",
     aioWhatTitle: "What is it?",
     aioWhatText:
-      "A portable Markdown-based AI agent pack for running digital marketing work through one orchestrator and 15 specialist agents.",
+      "A portable Markdown-based pack for running end-to-end digital marketing with 21 coordinated agents and 12 technical capabilities.",
     aioWhoTitle: "Who is it for?",
     aioWhoText:
       "Founders, marketers, agencies, course creators, and teams that want structured AI help for strategy, content, ads, analytics, and reporting.",
@@ -52,8 +52,23 @@ const translations = {
     coverContentText: "Brand voice, content calendars, social media plans, and engagement workflows.",
     coverAdsTitle: "Ads and Video",
     coverAdsText: "Google Ads, display concepts, A/B tests, scripts, storyboards, and micro-ad prompts.",
-    coverLearningTitle: "Learning and Updates",
-    coverLearningText: "Project personalization, safe memory, update checks, approval gates, and final reports.",
+    coverLearningTitle: "Governance and Updates",
+    coverLearningText: "Compliance review, privacy checks, update checks, approval gates, and final reports.",
+    reviewEyebrow: "Reviewed Team System",
+    reviewTitle: "One complete marketing team, reviewed and approved",
+    reviewText: "All 21 agents have clear ownership, structured handoffs, measurement requirements, approval gates, and security rules.",
+    reviewStatus: "TEAM ACC",
+    capBrowser: "Navigation, forms, screenshots, and web QA.",
+    capResearch: "Current, source-backed market and competitor research.",
+    capScraping: "Permission-aware extraction of public structured data.",
+    capVideo: "Hook, scene, pacing, CTA, and pattern analysis.",
+    capGithub: "Repository, PR, issue, changelog, and release support.",
+    capFiles: "Safe file, PDF, DOCX, and Markdown operations.",
+    capOffice: "Spreadsheet analysis and presentation production.",
+    capEmail: "Approval-gated email and campaign scheduling.",
+    capRag: "Grounded retrieval, citations, and approved knowledge indexing.",
+    capabilityRuleTitle: "Execution Rule",
+    capabilityRuleText: "Scripts, APIs, connectors, and browser automation come first. Computer Use is reserved for UI-only workflows.",
     detailEyebrow: "Agent Skills Detail",
     detailTitle: "A modular team for the full digital marketing cycle",
     detailText:
@@ -62,8 +77,14 @@ const translations = {
       "The main user-facing agent. It performs intake, creates campaign execution plans, delegates tasks, manages approvals, synthesizes results, and reports progress.",
     agentMarketingDirector:
       "Turns a business brief into strategy: objectives, audience, positioning, channel priorities, KPIs, and a practical 30-day action plan.",
+    agentBrand:
+      "Defines brand positioning, value proposition, voice, messaging framework, and competitor differentiation.",
     agentMarketResearch:
-      "Researches the market, competitors, customer pains, personas, digital twins, social listening signals, and opportunity gaps.",
+      "Researches the market, trends, customers, competitors, and opportunity gaps.",
+    agentCompetitive:
+      "Monitors competitors, pricing, campaign patterns, competitor SEO, and industry benchmarks.",
+    agentJourney:
+      "Maps customer journeys, funnels, touchpoints, conversion paths, and optimization opportunities.",
     agentSeoAio:
       "Builds keyword maps, search intent groups, on-page SEO recommendations, local SEO checklists, and AI answer optimization briefs.",
     agentLandingPage:
@@ -73,26 +94,32 @@ const translations = {
     agentSocial:
       "Designs engagement loops, comment response playbooks, sentiment handling, trend-fit checks, escalation rules, and automation boundaries.",
     agentPaidAds:
-      "Plans Google Ads, paid search, display ads, media buying assumptions, ad copy variations, budget logic, and A/B testing reports.",
+      "Plans Google Ads, Meta Ads, TikTok Ads, targeting, budget logic, ad copy, and testing.",
+    agentInfluencer:
+      "Designs influencer selection, affiliate strategy, partnerships, collaboration campaigns, and sponsorship plans.",
+    agentCreative:
+      "Generates divergent viral concepts, unconventional campaigns, meme ideas, attention hooks, and creative angles.",
     agentVideo:
-      "Creates short video concepts, scripts, storyboards, product shot direction, visual prompts, micro-ad prompts, and audio vibe notes.",
+      "Creates video concepts, scripts, storyboards, hook designs, and platform-specific video directions.",
+    agentVideoPattern:
+      "Analyzes video examples, viral patterns, hooks, structure, CTAs, and reusable creative templates.",
     agentEmail:
-      "Builds email plans, nurture sequences, promo emails, re-engagement flows, lifecycle maps, and personalization message matrices.",
+      "Builds welcome, nurture, promotional, retention, and reactivation email campaigns.",
+    agentCrm:
+      "Creates segmentation, loyalty, repeat purchase, churn prevention, and win-back strategies.",
+    agentAutomation:
+      "Designs workflow automation, lead nurturing, CRM, email, WhatsApp automation, and trigger logic.",
     agentAnalytics:
       "Reads marketing metrics, interprets channel performance, identifies bottlenecks, recommends optimizations, and proposes next experiments.",
     agentEthics:
       "Reviews claims, privacy risk, credential exposure, spam risk, synthetic media risk, bias, and approval readiness before publishing.",
-    agentCapstone:
-      "Assembles the final Ultimate Marketing AI Agent package, including instructions, knowledge base inventory, creative brief, and walkthrough script.",
     agentUpdate:
       "Checks the canonical repository for updates, compares local files, summarizes changes and risks, then asks for confirmation before updating.",
-    agentLearning:
-      "Maintains a safe project profile with brand voice, preferences, decisions, campaign learnings, and do-not-use notes without storing secrets.",
     faqEyebrow: "FAQ",
     faqTitle: "Frequently asked questions",
     faqWhatQuestion: "What is Digital Marketing Agent Skills?",
     faqWhatAnswer:
-      "It is a modular AI agent skills pack for digital marketing. One orchestrator coordinates specialist agents for strategy, research, SEO/AIO, content, ads, email, analytics, compliance, updates, and personalization.",
+      "It is a modular AI agent skills pack for digital marketing. One orchestrator coordinates specialist agents for strategy, research, SEO/AIO, content, ads, video, conversion, retention, analytics, compliance, and updates.",
     faqInstallQuestion: "How do I install it?",
     faqInstallAnswer:
       "Copy the install prompt, paste it into your AI agent workspace, let the installer download the repository, confirm the detected agent count, and approve the installation.",
@@ -108,7 +135,7 @@ const translations = {
     pageTitle: "Digital Marketing Agent Skills",
     docHref: "docs-id.html",
     installPrompt: "download install agent ini https://github.com/lensetek/Digital-Marketing-Agent_Skills",
-    heroBadge: "15 agent skills modular + satu marketing orchestrator",
+    heroBadge: "Tim marketing 21 agent + 12 capability",
     heroTitle: "Tim digital marketing lengkap yang bisa diinstall dengan satu prompt.",
     heroSubtitle:
       "Cukup bicara dengan satu orchestrator. Ia membuat rencana, mengoordinasikan agent spesialis, meminta approval, dan memberi laporan hasil. Instruksi Markdown portable untuk Antigravity, Claude, Codex, Gemini, dan workspace agent lainnya.",
@@ -122,7 +149,7 @@ const translations = {
     installNote:
       'Agent installer harus download repository, menghitung <span class="font-mono">skills/*/SKILL.md</span>, menampilkan agent yang ditemukan, lalu meminta konfirmasi sebelum install.',
     statAgents: "agent skills terdeteksi di project",
-    statOrchestrator: "orchestrator mengoordinasikan seluruh tim",
+    statOrchestrator: "capability teknis mendukung eksekusi",
     statCredentials: "credential dibutuhkan di prompt atau file frontend",
     aioEyebrow: "Siap SEO dan AIO",
     aioTitle: "Jawaban jelas untuk manusia, mesin pencari, dan AI assistant",
@@ -130,7 +157,7 @@ const translations = {
       "Halaman ini menjelaskan agent pack dengan bahasa langsung dan terstruktur agar mudah dipahami manusia serta mudah diringkas oleh AI answer engine.",
     aioWhatTitle: "Apa ini?",
     aioWhatText:
-      "AI agent pack berbasis Markdown yang portable untuk menjalankan pekerjaan digital marketing lewat satu orchestrator dan 15 agent spesialis.",
+      "Paket berbasis Markdown untuk menjalankan digital marketing end-to-end dengan 21 agent terkoordinasi dan 12 capability teknis.",
     aioWhoTitle: "Untuk siapa?",
     aioWhoText:
       "Founder, marketer, agensi, course creator, dan tim yang butuh bantuan AI terstruktur untuk strategi, konten, iklan, analytics, dan reporting.",
@@ -148,8 +175,23 @@ const translations = {
     coverContentText: "Brand voice, kalender konten, rencana social media, dan workflow engagement.",
     coverAdsTitle: "Iklan dan Video",
     coverAdsText: "Google Ads, konsep display, A/B test, script, storyboard, dan micro-ad prompt.",
-    coverLearningTitle: "Learning dan Update",
-    coverLearningText: "Personalisasi project, safe memory, cek update, approval gate, dan laporan final.",
+    coverLearningTitle: "Governance dan Update",
+    coverLearningText: "Review compliance, cek privasi, cek update, approval gate, dan laporan final.",
+    reviewEyebrow: "Sistem Tim Tereview",
+    reviewTitle: "Satu tim marketing lengkap, sudah direview dan di-ACC",
+    reviewText: "Semua 21 agent memiliki ownership jelas, handoff terstruktur, kebutuhan measurement, approval gate, dan aturan security.",
+    reviewStatus: "TEAM ACC",
+    capBrowser: "Navigasi, form, screenshot, dan QA web.",
+    capResearch: "Riset pasar dan kompetitor terkini berbasis sumber.",
+    capScraping: "Ekstraksi data publik terstruktur dengan batas izin.",
+    capVideo: "Analisis hook, scene, pacing, CTA, dan pola video.",
+    capGithub: "Dukungan repository, PR, issue, changelog, dan release.",
+    capFiles: "Operasi file, PDF, DOCX, dan Markdown yang aman.",
+    capOffice: "Analisis spreadsheet dan produksi presentasi.",
+    capEmail: "Email dan scheduling campaign dengan approval gate.",
+    capRag: "Retrieval berbasis bukti, citation, dan indexing knowledge yang disetujui.",
+    capabilityRuleTitle: "Aturan Eksekusi",
+    capabilityRuleText: "Utamakan script, API, connector, dan browser automation. Computer Use hanya untuk workflow yang wajib melalui UI.",
     detailEyebrow: "Detail Agent Skills",
     detailTitle: "Tim modular untuk siklus digital marketing lengkap",
     detailText:
@@ -158,8 +200,14 @@ const translations = {
       "Agent utama yang diajak bicara user. Ia melakukan intake, membuat campaign execution plan, membagi tugas, mengelola approval, menyatukan hasil, dan melaporkan progres.",
     agentMarketingDirector:
       "Mengubah brief bisnis menjadi strategi: objektif, audience, positioning, prioritas channel, KPI, dan action plan 30 hari yang praktis.",
+    agentBrand:
+      "Menentukan brand positioning, value proposition, brand voice, messaging framework, dan diferensiasi kompetitor.",
     agentMarketResearch:
-      "Meriset pasar, kompetitor, pain point pelanggan, persona, digital twin, sinyal social listening, dan celah peluang.",
+      "Meriset pasar, tren, customer, kompetitor, dan celah peluang.",
+    agentCompetitive:
+      "Memonitor kompetitor, pricing, pola campaign, SEO kompetitor, dan benchmark industri.",
+    agentJourney:
+      "Memetakan customer journey, funnel, touchpoint, conversion path, dan peluang optimasi.",
     agentSeoAio:
       "Membuat keyword map, pengelompokan search intent, rekomendasi on-page SEO, local SEO checklist, dan AI answer optimization brief.",
     agentLandingPage:
@@ -169,21 +217,27 @@ const translations = {
     agentSocial:
       "Mendesain engagement loop, comment response playbook, sentiment handling, trend-fit check, escalation rule, dan batas automation.",
     agentPaidAds:
-      "Merencanakan Google Ads, paid search, display ads, asumsi media buying, variasi ad copy, budget logic, dan laporan A/B testing.",
+      "Merencanakan Google Ads, Meta Ads, TikTok Ads, targeting, budget logic, ad copy, dan testing.",
+    agentInfluencer:
+      "Mendesain influencer selection, affiliate strategy, partnership, collaboration campaign, dan sponsorship plan.",
+    agentCreative:
+      "Menghasilkan konsep viral divergen, unconventional campaign, meme idea, attention hook, dan creative angle.",
     agentVideo:
-      "Membuat konsep video pendek, script, storyboard, arahan product shot, visual prompt, micro-ad prompt, dan audio vibe note.",
+      "Membuat video concept, script, storyboard, hook design, dan arahan video per platform.",
+    agentVideoPattern:
+      "Menganalisis contoh video, pola viral, hook, struktur, CTA, dan reusable creative template.",
     agentEmail:
-      "Membuat email plan, nurture sequence, promo email, re-engagement flow, lifecycle map, dan personalization message matrix.",
+      "Membuat welcome, nurture, promotional, retention, dan reactivation email campaign.",
+    agentCrm:
+      "Membuat segmentation, loyalty, repeat purchase, churn prevention, dan win-back strategy.",
+    agentAutomation:
+      "Mendesain workflow automation, lead nurturing, CRM, email, WhatsApp automation, dan trigger logic.",
     agentAnalytics:
       "Membaca metrik marketing, menafsirkan performa channel, menemukan bottleneck, merekomendasikan optimasi, dan eksperimen berikutnya.",
     agentEthics:
       "Mereview klaim, risiko privasi, credential exposure, spam risk, synthetic media risk, bias, dan kesiapan approval sebelum publish.",
-    agentCapstone:
-      "Menyusun paket akhir Ultimate Marketing AI Agent, termasuk instructions, knowledge base inventory, creative brief, dan walkthrough script.",
     agentUpdate:
       "Mengecek update repository canonical, membandingkan file lokal, merangkum perubahan dan risiko, lalu meminta konfirmasi sebelum update.",
-    agentLearning:
-      "Menjaga project profile yang aman berisi brand voice, preferensi, keputusan, learning campaign, dan do-not-use note tanpa menyimpan secret.",
     faqEyebrow: "FAQ",
     faqTitle: "Pertanyaan umum",
     faqWhatQuestion: "Apa itu Digital Marketing Agent Skills?",

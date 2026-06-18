@@ -31,11 +31,17 @@
 - SEO/AIO:
 - Landing page:
 - Google Ads:
-- Display ads:
+- Meta Ads:
+- TikTok Ads:
+- YouTube Ads:
+- LinkedIn Ads:
+- Display/retargeting:
+- Influencer/affiliate/partnership:
 - Social media:
 - Short video:
 - Email:
 - CRM/lifecycle:
+- Marketing automation:
 
 ## Creative Direction
 
@@ -53,6 +59,8 @@
 - Baseline:
 - Target:
 - Reporting cadence:
+- Tracking/analytics readiness:
+- UTM/naming convention:
 
 ## Risks and Review
 
@@ -60,6 +68,7 @@
 - Privacy risks:
 - Platform policy risks:
 - Required approvals:
+- Target geography/jurisdiction:
 
 ## Security Note
 

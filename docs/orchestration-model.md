@@ -2,7 +2,7 @@
 
 ## Single Entry Point
 
-`marketing-orchestrator` is the primary agent users talk to. It owns intake, planning, routing, synthesis, review, reporting, and learning handoff.
+`marketing-orchestrator` is the primary agent users talk to. It owns intake, planning, routing, synthesis, review, approval gates, and final reporting.
 
 Specialist agents stay modular. They receive scoped task briefs and return structured output reports.
 
@@ -19,7 +19,7 @@ Specialist agents stay modular. They receive scoped task briefs and return struc
 ## Default Flow
 
 1. Intake user request.
-2. Load or create project profile.
+2. Load or create the working brand/campaign brief.
 3. Build campaign execution plan.
 4. Create task briefs.
 5. Delegate to specialist agents.
@@ -28,14 +28,17 @@ Specialist agents stay modular. They receive scoped task briefs and return struc
 8. Run ethics, security, and claims review.
 9. Create approval gate for external actions.
 10. Deliver executive marketing report.
-11. Save approved non-sensitive learnings.
+11. Document approved next actions in the final marketing report.
 
 ## Routing Rules
 
 - Use the fewest specialist agents needed for the user goal.
 - Use `ethics-compliance-reviewer` for any final campaign, publish recommendation, public doc, or external action.
 - Use `analytics-optimization-analyst` when metrics, experiments, or performance decisions are involved.
-- Use `project-learning-personalization-agent` at the beginning for context and at the end for learnings.
+- Use `brand-strategist` when positioning, value proposition, voice, or messaging consistency matters.
+- Use `competitive-intelligence-agent` when competitor pricing, campaigns, SEO, or benchmarks matter.
+- Use `customer-journey-funnel-strategist` when the work affects conversion paths or lifecycle flow.
+- Use `crm-customer-retention-agent` and `marketing-automation-specialist` for retention and automated nurture flows.
 - Use `agent-update-manager` only when update/sync/repository maintenance is requested or scheduled.
 
 ## Approval Rules
@@ -48,7 +51,6 @@ The orchestrator must request approval before:
 - Changing external account settings.
 - Sharing public links.
 - Updating repository files from upstream.
-- Storing sensitive or business-critical durable learning.
 - Using customer-level data.
 
 ## Reporting Rules

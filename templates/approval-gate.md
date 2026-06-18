@@ -1,44 +1,47 @@
 # Approval Gate
 
-## Approval Request
+## Requested Action
 
-- Requested action:
-- Requested by agent:
+- Action:
+- Requested by:
 - Business reason:
-- Deadline:
+- Target date:
 
 ## Action Type
 
-- Publish content:
-- Send email/message:
-- Spend ad budget:
-- Change account settings:
-- Share public link:
-- Update repository files:
-- Store durable project learning:
-- Use sensitive data:
+- Publish content/page:
+- Send email/message/invite:
+- Spend or change ad budget:
+- Change external account settings:
+- Upload customer-level data:
+- Update repository:
+- Share public link or private asset:
 
-## What Will Happen If Approved
+## Scope
 
-- Step 1:
-- Step 2:
-- Step 3:
+- Channel/account:
+- Audience:
+- Budget:
+- Files/data involved:
+- Credential handling:
 
-## Risks
+## Review Status
 
-- Privacy risk:
-- Credential risk:
-- Brand risk:
-- Platform policy risk:
-- Budget risk:
+- Strategy review:
+- Brand review:
+- Analytics/tracking review:
+- Ethics/compliance review:
+- Final status: `ACC`, `ACC WITH CHANGES`, or `BLOCKED`.
 
-## Rollback or Recovery
+## Risks and Recovery
 
-- Can reverse:
-- Recovery step:
-- Backup available:
+- Privacy/security risk:
+- Claim/legal risk:
+- Brand/reputation risk:
+- Platform risk:
+- Rollback or recovery:
 
-## Approval Decision
+## Decision
 
 - Approved:
 - Rejected:

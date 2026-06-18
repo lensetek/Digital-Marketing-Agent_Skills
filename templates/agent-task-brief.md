@@ -1,49 +1,50 @@
 # Agent Task Brief
 
-## Assigned Agent
+## Assignment
 
-- Agent:
+- Assigned agent:
 - Requested by:
-- Status:
+- Objective:
+- Funnel stage:
 - Priority:
+- Sequence/dependencies:
 
 ## Context
 
-- Brand/project:
-- Campaign:
+- Brand:
 - Audience:
-- Goal:
+- Offer:
+- Campaign:
+- Approved strategy and positioning:
 - Constraints:
-- Relevant project profile notes:
 
-## Task
-
-- Task description:
-- Required output:
-- Deadline/order:
-- Quality bar:
-
-## Inputs Provided
+## Inputs
 
 - Brand brief:
 - Campaign brief:
 - Research:
 - Assets:
 - Metrics:
-- Prior decisions:
+- Relevant source files or URLs:
+
+## Deliverable Contract
+
+- Required output:
+- Required format:
+- Quality bar:
+- Measurement requirement:
+- Deadline/order:
 
 ## Boundaries
 
 - Can do without approval:
 - Requires approval:
 - Must avoid:
+- Sensitive data rule:
+- Claim/proof rule:
 
-## Return Format
+## Handoff
 
-- Summary:
-- Work completed:
-- Key recommendations:
-- Assets/drafts:
-- Risks:
-- Approval needed:
-- Learning signals:
+- Next agent:
+- Expected dependency:
+- Review agent:

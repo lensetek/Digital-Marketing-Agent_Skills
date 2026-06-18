@@ -1,62 +1,84 @@
-# Ultimate Marketing AI Agent Package
+# Final Marketing Report
 
-## Section 1: The Agent Link - The Brain
+## Executive Summary
 
-- Agent name:
-- Agent link:
-- Niche:
-- Core expertise:
-- Ideal user:
+- Brand:
+- Campaign or business goal:
+- Primary audience:
+- Main recommendation:
+- Decision needed:
 
-## Section 2: The Agent Logic - The Instructions
+## Strategy
 
-### System Instructions
+- Positioning:
+- Target market:
+- Priority channels:
+- Core message:
+- Offer:
 
-Paste the final system instructions here.
+## Research and Intelligence
 
-### Knowledge Base
+- Market opportunity:
+- Customer insight:
+- Competitor pattern:
+- Differentiation:
+- Risks or assumptions:
 
-- Brand document:
-- Product data:
-- Persona:
-- Competitor references:
-- Campaign references:
-- Market research:
-- SEO/AIO notes:
-- Analytics notes:
+## Acquisition Plan
 
-### Operating Workflow
+- SEO/AIO:
+- Paid ads:
+- Influencer or partnership:
+- Content distribution:
 
-1. Receive brief.
-2. Clarify missing context.
-3. Analyze market and customer.
-4. Recommend strategy.
-5. Create campaign and content outputs.
-6. Review risks and ethics.
-7. Produce final creative brief.
+## Content and Creative
 
-## Section 3: Creative Samples - The Proof
+- Content pillars:
+- Editorial calendar summary:
+- Creative angles:
+- Video concepts:
+- Social engagement plan:
 
-- Micro-ad prompt 5-8 seconds:
-- Video link:
-- Audio direction:
-- Creative rationale:
+## Conversion and Retention
 
-## Section 4: System Walkthrough - The Demo
+- Landing page structure:
+- CTA:
+- Email lifecycle:
+- CRM and retention:
+- Automation workflow:
 
-- Walkthrough video link:
-- Demo scenario:
-- What the agent receives:
-- How the agent analyzes:
-- What the agent produces:
+## Measurement
 
-## Final Checklist
+- KPI:
+- Attribution notes:
+- Funnel analytics:
+- Optimization backlog:
 
-- Agent link is public.
-- Document link is public.
-- Links are tested in incognito mode.
-- Instructions are complete.
-- Knowledge base is listed.
-- Creative sample is included.
-- Walkthrough is accessible.
-- Ethics and security review is complete.
+## Ethics, Compliance, and Security
+
+- Claims review:
+- Privacy review:
+- Credential exposure check:
+- Platform policy risks:
+- Approval status:
+- Legal counsel escalation:
+
+## Team Review Status
+
+- Strategy:
+- Brand:
+- Research:
+- Channel execution:
+- Measurement/tracking:
+- Ethics/compliance:
+- Final orchestrator status: `ACC`, `ACC WITH CHANGES`, or `BLOCKED`.
+
+## Next Actions
+
+1.
+2.
+3.
+
+## Security Reminder
+
+Do not include API keys, passwords, access tokens, private keys, service account JSON, billing credentials, or raw customer-sensitive data in this report. Treat frontend config such as `VITE_*`, `NEXT_PUBLIC_*`, browser JavaScript, HTML, and public assets as public.

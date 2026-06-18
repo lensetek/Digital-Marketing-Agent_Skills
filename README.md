@@ -1,6 +1,6 @@
 # Digital Marketing Agent Skills
 
-Portable modular agent skills for a full digital marketing team.
+Portable modular agent skills for a professional AI digital marketing team.
 
 ## Language
 
@@ -15,11 +15,15 @@ Paste this prompt into Antigravity, Claude, Codex, Gemini/custom agent, or any A
 download and install this agent https://github.com/lensetek/Digital-Marketing-Agent_Skills
 ```
 
-The installer agent must confirm the repository, destination, detected agent count, and agent list before installing. Current expected inventory: **15 agent skills**.
+The installer agent must confirm the repository, destination, detected agent count, and agent list before installing. Current expected inventory: **21 agent skills** plus **12 reusable capabilities** in `capabilities/`.
 
 ## Landing Page
 
 Open [index.html](index.html) to view the static landing page with a copyable install prompt box.
+
+## Capability Layer
+
+Technical helpers live in `capabilities/`: browser automation, web research, scraping, video understanding, GitHub, file, document, spreadsheet, presentation, email, scheduling, and knowledge base/RAG. These are helper capabilities, not extra marketing agents.
 
 ## Security
 
