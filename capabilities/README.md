@@ -26,6 +26,7 @@ Capability layer ini berisi kemampuan teknis yang bisa dipakai oleh semua market
 | Email Operations | `email-operations` | Draft, QA, segmentation notes, dan send-gate untuk email. |
 | Scheduling Operations | `scheduling-operations` | Calendar, reminders, campaign cadence, dan scheduling gates. |
 | Knowledge Base / RAG | `knowledge-base-rag` | Indexing dokumen, retrieval, citation, dan grounded answers. |
+| Project Memory & Learning | `project-memory-learning` | Personalisasi aman dari fakta, preferensi, keputusan, feedback, dan eksperimen yang disetujui. |
 
 ## Standard Handoff
 
@@ -52,3 +53,7 @@ Computer Use boleh dipakai hanya jika:
 - Visual inspection tidak bisa diganti oleh script, API, atau browser automation.
 
 Jika Computer Use dipakai, capability wajib mencatat alasan dan batasan tindakan.
+
+## Personalization Rule
+
+Project memory tidak melatih ulang model dan tidak menyimpan seluruh percakapan. Capability hanya menyimpan learning ringkas yang punya sumber, status, dan approval. User harus bisa melihat, memperbaiki, mengekspor, atau menghapus memory tersebut.

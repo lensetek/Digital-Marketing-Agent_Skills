@@ -18,6 +18,8 @@ Review covers all 21 marketing agents as one end-to-end digital marketing team:
 
 The team is ready to operate as a complete digital marketing planning, production, conversion, retention, measurement, and governance system. External execution remains approval-gated.
 
+The supporting capability layer includes approval-based project memory/personalization and read-only recurring repository update checks. Neither hidden learning nor unattended update installation is enabled by default.
+
 ## Agent Review
 
 | Agent | Status | Review Note |

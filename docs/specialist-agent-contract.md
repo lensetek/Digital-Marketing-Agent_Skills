@@ -65,6 +65,8 @@ Explicit user approval is required before:
 
 Capabilities in `capabilities/` perform technical work. Prefer scripts, APIs, CLIs, MCP tools, connectors, and browser automation. Computer Use is a fallback for UI-only workflows and never removes the approval requirements above.
 
+`project-memory-learning` may retrieve approved context and propose durable learning updates. It must not silently store entire conversations, credentials, raw customer data, or inferred sensitive traits. Update checks may run on a read-only schedule; applying repository changes remains approval-gated.
+
 ## Security Baseline
 
 - Never place real credentials in prompts, frontend files, public docs, templates, logs, screenshots, or reports.

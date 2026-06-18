@@ -31,3 +31,4 @@ Use this capability for indexing documents, retrieving relevant context, buildin
 - Do not index secrets, credentials, raw customer-sensitive data, or private files without approval.
 - Do not present unsupported statements as sourced facts.
 - Keep citations tied to actual retrieved evidence.
+- Use `project-memory-learning` for approved preferences, decisions, and experiment history; use this capability for document retrieval and grounded evidence.

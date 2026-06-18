@@ -83,7 +83,7 @@ Hasil review lengkap seluruh agent tersedia di [docs/agent-team-review.md](docs/
 
 ## Capability Layer
 
-Folder [capabilities/](capabilities/) berisi 12 kemampuan teknis reusable. Ini bukan marketing agent baru, jadi tidak dihitung ke 21 agent marketing.
+Folder [capabilities/](capabilities/) berisi 13 kemampuan reusable. Ini bukan marketing agent baru, jadi tidak dihitung ke 21 agent marketing.
 
 | Capability | Fungsi |
 |---|---|
@@ -99,8 +99,13 @@ Folder [capabilities/](capabilities/) berisi 12 kemampuan teknis reusable. Ini b
 | `email-operations` | Draft, QA, segmentation notes, dan send-gate email. |
 | `scheduling-operations` | Calendar, reminders, cadence, dan scheduling gates. |
 | `knowledge-base-rag` | Indexing dokumen, retrieval, citation, dan grounded answers. |
+| `project-memory-learning` | Personalisasi aman dari fakta, preferensi, keputusan, feedback, dan eksperimen yang disetujui. |
 
 Gunakan script/API/MCP/browser automation lebih dulu. Computer Use hanya fallback untuk UI desktop/browser yang tidak punya jalur otomasi lebih aman.
+
+Update repository dapat dicek otomatis secara berkala melalui `agent-update-manager` dan `scheduling-operations`. Default-nya read-only weekly check; install update tetap membutuhkan ACC.
+
+Personalisasi menggunakan `project-memory-learning`. Ini bukan hidden model training: hanya learning project ringkas yang disetujui, dapat diaudit, diperbaiki, diekspor, dan dihapus.
 
 ## Security First
 

@@ -52,7 +52,7 @@ Found 21 agent skills in this project. Install all agent skills?
 
 ## Capability Layer
 
-The [capabilities/](capabilities/) folder contains 12 reusable technical capabilities. They are not counted as marketing agents; they are helper contracts for technical work that any marketing agent can request.
+The [capabilities/](capabilities/) folder contains 13 reusable capabilities. They are not counted as marketing agents; they are helper contracts that any marketing agent can request.
 
 | Capability | Job |
 |---|---|
@@ -68,8 +68,11 @@ The [capabilities/](capabilities/) folder contains 12 reusable technical capabil
 | `email-operations` | Drafting, QA, segmentation notes, and gated sending. |
 | `scheduling-operations` | Calendar, reminders, cadence, and scheduling gates. |
 | `knowledge-base-rag` | Document indexing, retrieval, citations, and grounded answers. |
+| `project-memory-learning` | Approval-based personalization from project facts, preferences, decisions, feedback, and experiments. |
 
 Prefer scripts, APIs, CLIs, MCP tools, connectors, or browser automation first. Use Computer Use only as a fallback for desktop/browser UI work that has no safer automation path.
+
+Repository update checks may run weekly in read-only mode. Applying an update remains approval-gated. Project memory is auditable and user-controlled; it does not silently store full conversations or credentials.
 
 ## Security
 

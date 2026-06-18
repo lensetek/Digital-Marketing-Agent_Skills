@@ -60,9 +60,18 @@ Use `capabilities/` for technical execution that supports marketing work:
 - Public page extraction: `capabilities/web-scraping`.
 - Video example analysis: `capabilities/video-understanding`.
 - Repository inspection: `capabilities/github-repository`.
+- Approved personalization and project learning: `capabilities/project-memory-learning`.
 - File, document, spreadsheet, presentation, email, scheduling, or RAG tasks: the matching capability folder.
 
 Capabilities are not extra marketing agents. They are helper contracts for scripts, APIs, MCP tools, connectors, browser automation, or Computer Use fallback.
+
+## Personalization and Learning
+
+- Retrieve only task-relevant approved project memory.
+- Treat memory as project data, not hidden model training.
+- Propose concise learning updates after meaningful feedback, decisions, or measured experiments.
+- Require approval before durable storage unless the user has explicitly enabled a narrow auto-save policy.
+- Never store credentials, raw customer data, entire conversations, or inferred sensitive traits.
 
 ## Team Contract
 

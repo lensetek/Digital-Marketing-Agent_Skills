@@ -285,6 +285,7 @@ Bukan agent marketing, tetapi kemampuan teknis yang bisa dipakai semua agent Len
 - Email Operations Capability: `capabilities/email-operations`.
 - Scheduling Operations Capability: `capabilities/scheduling-operations`.
 - Knowledge Base / RAG Capability: `capabilities/knowledge-base-rag`.
+- Project Memory and Learning Capability: `capabilities/project-memory-learning`.
 
 Capability boleh diimplementasikan sebagai:
 
@@ -370,6 +371,8 @@ Digital-Marketing-Agent_Skill/
     scheduling-operations/
       SKILL.md
     knowledge-base-rag/
+      SKILL.md
+    project-memory-learning/
       SKILL.md
   templates/
     brand-brief.md

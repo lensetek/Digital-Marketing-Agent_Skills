@@ -15,7 +15,7 @@ Paste this prompt into Antigravity, Claude, Codex, Gemini/custom agent, or any A
 download and install this agent https://github.com/lensetek/Digital-Marketing-Agent_Skills
 ```
 
-The installer agent must confirm the repository, destination, detected agent count, and agent list before installing. Current expected inventory: **21 agent skills** plus **12 reusable capabilities** in `capabilities/`.
+The installer agent must confirm the repository, destination, detected agent count, and agent list before installing. Current expected inventory: **21 agent skills** plus **13 reusable capabilities** in `capabilities/`.
 
 ## Landing Page
 
