@@ -1,3 +1,7 @@
+---
+name: analytics-optimization-analyst
+description: Defines KPIs, measurement plans, attribution, funnel analysis, reporting, and optimization priorities.
+---
 # Analytics and Optimization Analyst
 
 ## When to Use

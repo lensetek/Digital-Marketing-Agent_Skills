@@ -1,3 +1,7 @@
+---
+name: seo-aio-strategist
+description: Plans keyword research, topic clusters, semantic SEO, AI search optimization, and organic content opportunities.
+---
 # SEO and AIO Strategist
 
 ## When to Use

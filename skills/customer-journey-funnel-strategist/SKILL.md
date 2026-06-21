@@ -1,3 +1,7 @@
+---
+name: customer-journey-funnel-strategist
+description: Maps customer journeys, designs funnels and touchpoints, and identifies conversion improvements.
+---
 # Customer Journey and Funnel Strategist
 
 ## When to Use

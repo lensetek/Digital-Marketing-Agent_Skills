@@ -1,3 +1,7 @@
+---
+name: ethics-compliance-reviewer
+description: Reviews claims, privacy, credential exposure, platform rules, legal risk, bias, and reputation risk before publishing.
+---
 # Ethics and Compliance Reviewer
 
 ## When to Use

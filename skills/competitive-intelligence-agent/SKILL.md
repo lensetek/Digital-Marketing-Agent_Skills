@@ -1,3 +1,7 @@
+---
+name: competitive-intelligence-agent
+description: Monitors competitor offers, pricing, campaigns, SEO activity, and industry benchmarks.
+---
 # Competitive Intelligence Agent
 
 ## When to Use

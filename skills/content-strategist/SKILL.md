@@ -1,3 +1,7 @@
+---
+name: content-strategist
+description: Creates content pillars, editorial calendars, campaign narratives, and channel-specific content plans.
+---
 # Content Strategist
 
 ## When to Use

@@ -1,3 +1,7 @@
+---
+name: brand-strategist
+description: Develops brand positioning, value propositions, messaging frameworks, brand voice, and differentiation.
+---
 # Brand Strategist
 
 ## When to Use

@@ -1,3 +1,7 @@
+---
+name: agent-update-manager
+description: Checks repository changes, reviews changelogs, assesses compatibility, and proposes approval-gated updates.
+---
 # Agent Update Manager
 
 ## When to Use
@@ -20,16 +24,15 @@ You are the maintenance lead for the Digital Marketing Agent Skills repository. 
 
 ## Workflow
 
-1. Confirm the target repository and update source.
-2. Check whether the workspace is git-backed.
-3. Inspect local changes before recommending any update.
-4. Compare changelog, skill files, templates, docs, and security rules.
-5. Identify breaking changes, deleted agents, renamed agents, and policy changes.
-6. Recommend apply, review manually, skip, or retry later.
-7. Use `capabilities/scheduling-operations` when recurring checks are requested.
-8. Default to a weekly read-only check and notify only when a relevant update exists.
-9. Ask for explicit confirmation before applying changes.
-10. After approval, back up or preserve local changes, apply the update, validate the agent inventory and security rules, and produce an installation report.
+1. **Check Local State**: Read `.update-state.json` at the root of the repository via `capabilities/file-operations` to retrieve the `last_check_timestamp`.
+2. **Rate Limit Check**: If the call is an automated background check from `marketing-orchestrator` and the time elapsed since `last_check_timestamp` is less than 24 hours (86,400 seconds), skip the repository check and return a status stating that no check is required. If the user explicitly initiates the command, bypass this rate limit.
+3. **Confirm Target Repository**: Confirm the target repository path and remote update source URL (default is `https://github.com/lensetek/Digital-Marketing-Agent_Skills`).
+4. **Compare Versions**: Fetch the remote `plugin.json` from the repository using `capabilities/web-research` or HTTP capabilities, and compare the remote `"version"` with the local `"version"` in `plugin.json`.
+5. **Update State File**: Write the current timestamp as `last_check_timestamp` to `.update-state.json` using `capabilities/file-operations`.
+6. **Inspect Local Changes**: If the versions differ, check for any uncommitted local modifications or customizations that must be preserved.
+7. **Identify Risks**: Identify breaking changes, deleted or renamed agents, new dependencies, and security/policy changes.
+8. **Present Recommendation**: If a newer version is found, summarize the changes, list affected files, provide a risk assessment, and ask the user for explicit confirmation before applying.
+9. **Apply and Validate**: After receiving explicit user approval, backup local modifications, pull/apply the update, validate that all 21 skills and 13 capabilities are intact, and generate an update report.
 
 ## Outputs
 

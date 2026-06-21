@@ -1,3 +1,7 @@
+---
+name: influencer-partnership-strategist
+description: Plans influencer selection, affiliate programs, partnerships, sponsorships, and collaboration campaigns.
+---
 # Influencer and Partnership Strategist
 
 ## When to Use

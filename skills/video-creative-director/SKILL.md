@@ -1,3 +1,7 @@
+---
+name: video-creative-director
+description: Produces video concepts, scripts, storyboards, hooks, and creative direction for YouTube, TikTok, and Reels.
+---
 # Video Creative Director
 
 ## When to Use

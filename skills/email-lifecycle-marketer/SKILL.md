@@ -1,3 +1,7 @@
+---
+name: email-lifecycle-marketer
+description: Creates welcome, nurture, promotion, retention, reactivation, and lifecycle email sequences.
+---
 # Email and Lifecycle Marketer
 
 ## When to Use

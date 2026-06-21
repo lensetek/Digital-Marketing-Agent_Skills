@@ -1,3 +1,7 @@
+---
+name: crm-customer-retention-agent
+description: Develops segmentation, loyalty, repeat-purchase, churn-prevention, and win-back strategies.
+---
 # CRM and Customer Retention Agent
 
 ## When to Use

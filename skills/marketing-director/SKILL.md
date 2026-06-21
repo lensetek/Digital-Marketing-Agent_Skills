@@ -1,3 +1,7 @@
+---
+name: marketing-director
+description: Defines marketing strategy, positioning, target segments, channel priorities, budgets, and campaign direction.
+---
 # Marketing Director
 
 ## When to Use

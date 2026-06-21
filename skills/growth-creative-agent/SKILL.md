@@ -1,3 +1,7 @@
+---
+name: growth-creative-agent
+description: Generates unconventional campaign ideas, viral concepts, meme marketing, hooks, and creative experiments.
+---
 # Growth Creative Agent
 
 ## When to Use

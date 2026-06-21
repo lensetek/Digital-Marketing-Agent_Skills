@@ -1,3 +1,7 @@
+---
+name: landing-page-conversion-specialist
+description: Designs landing-page structure, conversion copy, calls to action, and CRO recommendations.
+---
 # Landing Page and Conversion Specialist
 
 ## When to Use

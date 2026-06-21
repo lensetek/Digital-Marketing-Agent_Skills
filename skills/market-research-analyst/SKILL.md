@@ -1,3 +1,7 @@
+---
+name: market-research-analyst
+description: Researches markets, trends, customer needs, competitors, and growth opportunities.
+---
 # Market Research Analyst
 
 ## When to Use

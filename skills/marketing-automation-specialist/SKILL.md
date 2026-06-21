@@ -1,3 +1,7 @@
+---
+name: marketing-automation-specialist
+description: Designs lead-nurture workflows and CRM, email, WhatsApp, and trigger-based automation.
+---
 # Marketing Automation Specialist
 
 ## When to Use

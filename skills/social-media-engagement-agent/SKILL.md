@@ -1,3 +1,7 @@
+---
+name: social-media-engagement-agent
+description: Plans captions, social calendars, community engagement, audience interaction, and organic growth.
+---
 # Social Media Engagement Agent
 
 ## When to Use

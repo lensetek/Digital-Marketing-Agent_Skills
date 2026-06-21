@@ -1,3 +1,7 @@
+---
+name: video-pattern-reverse-engineer
+description: Analyzes reference videos to extract hooks, structures, pacing, CTAs, and reusable creative patterns.
+---
 # Video Pattern Reverse Engineer
 
 ## When to Use

@@ -1,3 +1,7 @@
+---
+name: paid-ads-specialist
+description: Plans Google, Meta, and TikTok advertising, including targeting, budget allocation, creative angles, and ad copy.
+---
 # Paid Ads Specialist
 
 ## When to Use
