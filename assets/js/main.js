@@ -12,7 +12,7 @@ const translations = {
     pageTitle: "Digital Marketing Agent Skills",
     docHref: "docs-en.html",
     installPrompt: "download and install this agent https://github.com/lensetek/Digital-Marketing-Agent_Skills",
-    heroBadge: "21-agent marketing team + 13 capabilities",
+    heroBadge: "21-agent marketing team + 14 capabilities",
     heroTitle: "A full digital marketing team you can install with one prompt.",
     heroSubtitle:
       "Talk to one orchestrator. It plans the work, coordinates specialist agents, asks for approval, and reports the result. Portable Markdown instructions for Antigravity, Claude, Codex, Gemini, and other agent workspaces.",
@@ -34,7 +34,7 @@ const translations = {
       "This page describes the agent pack in direct, structured language so humans can understand it quickly and AI answer engines can extract accurate summaries.",
     aioWhatTitle: "What is it?",
     aioWhatText:
-      "A portable Markdown-based pack for running end-to-end digital marketing with 21 coordinated agents and 13 reusable capabilities.",
+      "A portable Markdown-based pack for running end-to-end digital marketing with 21 coordinated agents and 14 reusable capabilities.",
     aioWhoTitle: "Who is it for?",
     aioWhoText:
       "Founders, marketers, agencies, course creators, and teams that want structured AI help for strategy, content, ads, analytics, and reporting.",
@@ -152,7 +152,7 @@ const translations = {
     pageTitle: "Digital Marketing Agent Skills",
     docHref: "docs-id.html",
     installPrompt: "download install agent ini https://github.com/lensetek/Digital-Marketing-Agent_Skills",
-    heroBadge: "Tim marketing 21 agent + 13 capability",
+    heroBadge: "Tim marketing 21 agent + 14 capability",
     heroTitle: "Tim digital marketing lengkap yang bisa diinstall dengan satu prompt.",
     heroSubtitle:
       "Cukup bicara dengan satu orchestrator. Ia membuat rencana, mengoordinasikan agent spesialis, meminta approval, dan memberi laporan hasil. Instruksi Markdown portable untuk Antigravity, Claude, Codex, Gemini, dan workspace agent lainnya.",
@@ -174,7 +174,7 @@ const translations = {
       "Halaman ini menjelaskan agent pack dengan bahasa langsung dan terstruktur agar mudah dipahami manusia serta mudah diringkas oleh AI answer engine.",
     aioWhatTitle: "Apa ini?",
     aioWhatText:
-      "Paket berbasis Markdown untuk menjalankan digital marketing end-to-end dengan 21 agent terkoordinasi dan 13 capability reusable.",
+      "Paket berbasis Markdown untuk menjalankan digital marketing end-to-end dengan 21 agent terkoordinasi dan 14 capability reusable.",
     aioWhoTitle: "Untuk siapa?",
     aioWhoText:
       "Founder, marketer, agensi, course creator, dan tim yang butuh bantuan AI terstruktur untuk strategi, konten, iklan, analytics, dan reporting.",

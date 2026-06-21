@@ -18,6 +18,7 @@ Capability layer ini berisi kemampuan teknis yang bisa dipakai oleh semua market
 | Web Research | `web-research` | Riset web dengan sumber, tanggal, dan ringkasan. |
 | Web Scraping | `web-scraping` | Ekstraksi data publik dari halaman web. |
 | Video Understanding | `video-understanding` | Analisis video, hook, struktur, scene, CTA, dan pola kreatif. |
+| Hermes Tweet X/Twitter | `hermes-tweet` | Riset X/Twitter, social listening, draft, dan publishing support yang approval-gated. |
 | GitHub Repository | `github-repository` | Inspect repo, issue, PR, changelog, dan release. |
 | File Operations | `file-operations` | Baca, tulis, cari, validasi, dan reorganisasi file workspace. |
 | Document Processing | `document-processing` | DOCX/PDF/Markdown extraction, formatting, dan review. |
