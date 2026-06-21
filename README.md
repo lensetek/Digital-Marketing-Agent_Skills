@@ -23,7 +23,7 @@ Paste this prompt into Antigravity, Claude, Codex, Gemini/custom agent, or any A
 download and install this agent https://github.com/lensetek/Digital-Marketing-Agent_Skills
 ```
 
-The installer agent must confirm the repository, destination, detected agent count, and agent list before installing. Current expected inventory: **21 agent skills** plus **13 reusable capabilities** in `capabilities/`.
+The installer agent must confirm the repository, destination, detected agent count, and agent list before installing. Current expected inventory: **21 agent skills** plus **14 reusable capabilities** in `capabilities/`.
 
 ## Landing Page
 
@@ -68,7 +68,7 @@ Open [index.html](index.html) to view the static landing page with a copyable in
 
 ## Capability Layer
 
-Technical helpers live in `capabilities/`: browser automation, web research, scraping, video understanding, GitHub, file, document, spreadsheet, presentation, email, scheduling, and knowledge base/RAG. These are helper capabilities, not extra marketing agents.
+Technical helpers live in `capabilities/`: browser automation, web research, scraping, video understanding, X/Twitter workflow, GitHub, file, document, spreadsheet, presentation, email, scheduling, knowledge base/RAG, and project memory. These are helper capabilities, not extra marketing agents.
 
 ## Security
 
@@ -96,7 +96,7 @@ Salin prompt berikut ke workspace AI agent Anda:
 download and install this agent https://github.com/lensetek/Digital-Marketing-Agent_Skills
 ```
 
-Installer harus mengonfirmasi repository, lokasi instalasi, jumlah agent yang terdeteksi, dan daftar agent sebelum memasang. Inventaris yang diharapkan: **21 agent skill** dan **13 reusable capability** di `capabilities/`.
+Installer harus mengonfirmasi repository, lokasi instalasi, jumlah agent yang terdeteksi, dan daftar agent sebelum memasang. Inventaris yang diharapkan: **21 agent skill** dan **14 reusable capability** di `capabilities/`.
 
 ### Cara Kerja
 
@@ -147,7 +147,7 @@ Installer harus mengonfirmasi repository, lokasi instalasi, jumlah agent yang te
 
 ### Capability Layer
 
-Folder [capabilities/](capabilities/) berisi 13 kemampuan reusable untuk browser automation, web research, scraping, video understanding, GitHub, file, document, spreadsheet, presentation, email, scheduling, knowledge base/RAG, dan project memory. Capability ini merupakan helper lintas-agent dan tidak dihitung sebagai agent marketing tambahan.
+Folder [capabilities/](capabilities/) berisi 14 kemampuan reusable untuk browser automation, web research, scraping, video understanding, X/Twitter workflow, GitHub, file, document, spreadsheet, presentation, email, scheduling, knowledge base/RAG, dan project memory. Capability ini merupakan helper lintas-agent dan tidak dihitung sebagai agent marketing tambahan.
 
 Utamakan script, API, CLI, MCP, connector, atau browser automation. Gunakan Computer Use hanya sebagai fallback ketika tidak ada jalur otomasi yang lebih aman.
 

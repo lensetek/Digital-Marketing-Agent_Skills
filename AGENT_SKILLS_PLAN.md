@@ -277,6 +277,7 @@ Bukan agent marketing, tetapi kemampuan teknis yang bisa dipakai semua agent Len
 - Web Research Capability: `capabilities/web-research`.
 - Web Scraping Capability: `capabilities/web-scraping`.
 - Video Understanding Capability: `capabilities/video-understanding`.
+- Hermes Tweet X/Twitter Capability: `capabilities/hermes-tweet`.
 - GitHub Repository Capability: `capabilities/github-repository`.
 - File Operations Capability: `capabilities/file-operations`.
 - Document Processing Capability: `capabilities/document-processing`.
@@ -355,6 +356,8 @@ Digital-Marketing-Agent_Skill/
     web-scraping/
       SKILL.md
     video-understanding/
+      SKILL.md
+    hermes-tweet/
       SKILL.md
     github-repository/
       SKILL.md
